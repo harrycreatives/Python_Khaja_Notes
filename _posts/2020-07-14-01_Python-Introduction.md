@@ -12,7 +12,7 @@ categories: Python
 * Building apps/games etc..
 
 ### What happens when you run applications
-![preview](../_site/assets/python01.png)
+![preview](../../../../assets/python01.png)
 
 ### How do I build applications
 * Speak/write to Processor directly
@@ -43,7 +43,7 @@ categories: Python
 ### How Programs work
 * Programs work as shown below:
 
-![preview](../_site/assets/python02.png)
+![preview](../../../../assets/python02.png)
 * To store results in ram we generally use some thing as variables
 * To tell how much of memory should i reserve on RAM we use datatypes.
 
