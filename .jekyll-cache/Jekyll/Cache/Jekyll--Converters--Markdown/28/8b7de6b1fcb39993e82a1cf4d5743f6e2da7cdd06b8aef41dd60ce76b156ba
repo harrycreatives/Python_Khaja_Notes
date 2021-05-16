@@ -1,0 +1,69 @@
+I"`<h3 id="our-character-jarvis">Our Character: Jarvis</h3>
+<p><img src="../../../../assets/python04.png" alt="preview" /></p>
+
+<h3 id="problem-to-be-solved">Problem to be solved</h3>
+<ul>
+  <li>Have a conversation with Jarvis to find if the given number is pallindrome
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>if you give 353 to jarvis he should output pallendrome
+if you give 100 to jarvis he should output not pallendrome
+</code></pre></div>    </div>
+  </li>
+  <li>Lets have conversation with Jarvis about reverse of number
+```
+reversenumber: (input number)
+Hi Jarvis, How are you doing
+Rememeber 0 as reverse
+Repeat till number is grater than 0
+ calculate remainder = number%10
+ calculate reverse = reverse*10 + remainder
+ calculate number = number/10</li>
+</ul>
+
+<p>return reverse</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+* Now lets check if the number is pallendrome
+</code></pre></div></div>
+<p>is_pallendrome:
+Remember 101 as number1
+check if number1 == reversenumber(number1)
+  if yes show number1 is pallendrome
+  else show number1 is not pallendrom</p>
+
+<p>Remember 354 as number2
+check if number2 == reversenumber(number2)
+  if yes show number2 is pallendrome
+  else show number2 is not pallendrom
+```</p>
+
+<h3 id="jarvis-upgraded">Jarvis upgraded</h3>
+<p><img src="../../../../assets/python05.png" alt="preview" /></p>
+
+<h3 id="personal-finance-hint">Personal finance Hint</h3>
+<ul>
+  <li>Look at power of compounding calculator <a href="https://www.moneycontrol.com/personal-finance/tools/magic-of-compounding-tool.html?classic=true">Here</a></li>
+  <li>Programming Specific: Try to come up with converstion to get Jarvis calculate power of compounding for you. Duration: Take a week if you want.</li>
+  <li>Plan: We will take this conversation and build a Calculator in Python once we become good at python</li>
+</ul>
+
+<h3 id="activities-to-be-done-over-weekend">Activities to be done over weekend</h3>
+<ul>
+  <li>Create an account in <a href="https://www.hackerrank.com/dashboard">Hacker Rank</a></li>
+  <li>Create an account in <a href="https://github.com/">Github</a></li>
+  <li>Watch the following videos
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=6mtGukS3-08&amp;list=PLuVH8Jaq3mLt7UwV-2SaktPjLwvODDQ54&amp;index=3">Installing Python on windows</a></li>
+      <li><a href="https://learningthoughts.academy/2020/02/23/installing-python-on-mac/">Installing Python on Mac</a></li>
+      <li><a href="https://www.youtube.com/watch?v=mRILfUNbsIo">Install Softwares mentioned here</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="next-steps">Next Steps</h3>
+<ul>
+  <li>DataTypes</li>
+  <li>Instructions in Programming languages</li>
+  <li>Conditional &amp; Looping instructions</li>
+  <li>Conversations with Jarvis into Python</li>
+  <li>Debugging</li>
+</ul>
+:ET

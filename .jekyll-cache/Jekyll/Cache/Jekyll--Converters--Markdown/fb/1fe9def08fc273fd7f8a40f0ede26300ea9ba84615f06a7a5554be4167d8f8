@@ -1,0 +1,88 @@
+I"q
+<h3 id="numeric-intelligence-of-python-contd">Numeric intelligence of python (Contd..)</h3>
+<p><img src="../../../../assets/python19.png" alt="preview" /></p>
+
+<h3 id="comparisions">Comparisions</h3>
+<ul>
+  <li>For comparisions python3 has following operators <code class="language-plaintext highlighter-rouge">&lt; &gt; &lt;= &gt;= == !=</code></li>
+  <li>Our python3 does know two kinds of comparisions.
+    <ol>
+      <li>Normal</li>
+    </ol>
+  </li>
+</ul>
+
+<p><img src="../../../../assets/python28.png" alt="preview" /></p>
+
+<ol>
+  <li>Chained</li>
+</ol>
+
+<p><img src="../../../../assets/python29.png" alt="preview" /></p>
+
+<h3 id="integer-precisions">Integer Precisions</h3>
+<ul>
+  <li>Python 3 supports integers of unlimited size
+<img src="../../../../assets/python30.png" alt="preview" /></li>
+</ul>
+
+<h3 id="decimals">Decimals</h3>
+<ul>
+  <li>What is value of 0.1+0.1+0.1-0.3? For us, its zero. But how about python3?</li>
+</ul>
+
+<p><img src="../../../../assets/python31.png" alt="preview" /></p>
+
+<ul>
+  <li>I can solve this and show the result as zero if you use fixed point numbers using Decimal
+<img src="../../../../assets/python32.png" alt="preview" /></li>
+</ul>
+
+<p><img src="../../../../assets/python33.png" alt="preview" /></p>
+
+<h3 id="some-other-built-in-numeric-tools-super-powers">Some other built-in Numeric Tools (Super powers)</h3>
+<ul>
+  <li>math</li>
+</ul>
+
+<p><img src="../../../../assets/python34.png" alt="preview" /></p>
+
+<ul>
+  <li>random</li>
+</ul>
+
+<p><img src="../../../../assets/python35.png" alt="preview" /></p>
+
+<h3 id="lets-use-our-python3-to-build-a-number-guessing-game">Lets use our python3 to build a number guessing game</h3>
+<ul>
+  <li>We will tell python3 to remember some number randomly.</li>
+  <li>Now we will ask user to enter inputs.
+    <ul>
+      <li>if the value entered by user is less than number remeber give hints to the user.
+        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Do you want a play a number guessing game?
+Let me memorize a value between 1 to 100. Done
+Start guessing
+10
+You are close, guess little bit higher
+90
+You are too much far away, guess smaller number
+30
+Great, you are wonderful at guess, play poker/rummy today
+I 
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="fun-with-python3">Fun with python3</h3>
+<ul>
+  <li>
+    <p>We are observing strange behavior from python3
+<img src="../../../../assets/python36.png" alt="preview" /></p>
+  </li>
+  <li>
+    <p>Is the behavior strange or our understanding of python3 w.r.t lists should be changed, Lets discuss this in our next session</p>
+  </li>
+</ul>
+:ET

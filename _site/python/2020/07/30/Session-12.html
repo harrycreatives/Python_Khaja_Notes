@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>12 Conditional Statements | Python Free Classroom Notes</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="12 Conditional Statements" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Conditional Statements If you consider the code print(1) print(2) print(3) print(4) print(5) print(6) print(7) print(8) print(9) print(10) Python will execute all the lines one after other, now lets try to write a program which will tell if the number is even or odd. Lets go back to Jarvis: Hi Jarvis Remember 10 as number check if 10%2 == 0 if yes show 10 is even else show 10 is odd Now part of the program still under-construction is as shown below To make it right we need to use if statement Now adding if to the program earlier This program looks ok but lets take dynamic input from user, now the program looks like Sample debugging screenshot" />
+<meta property="og:description" content="Conditional Statements If you consider the code print(1) print(2) print(3) print(4) print(5) print(6) print(7) print(8) print(9) print(10) Python will execute all the lines one after other, now lets try to write a program which will tell if the number is even or odd. Lets go back to Jarvis: Hi Jarvis Remember 10 as number check if 10%2 == 0 if yes show 10 is even else show 10 is odd Now part of the program still under-construction is as shown below To make it right we need to use if statement Now adding if to the program earlier This program looks ok but lets take dynamic input from user, now the program looks like Sample debugging screenshot" />
+<link rel="canonical" href="/python/2020/07/30/Session-12.html" />
+<meta property="og:url" content="/python/2020/07/30/Session-12.html" />
+<meta property="og:site_name" content="Python Free Classroom Notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-07-30T23:05:08+05:30" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="12 Conditional Statements" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"12 Conditional Statements","dateModified":"2020-07-30T23:05:08+05:30","datePublished":"2020-07-30T23:05:08+05:30","url":"/python/2020/07/30/Session-12.html","mainEntityOfPage":{"@type":"WebPage","@id":"/python/2020/07/30/Session-12.html"},"description":"Conditional Statements If you consider the code print(1) print(2) print(3) print(4) print(5) print(6) print(7) print(8) print(9) print(10) Python will execute all the lines one after other, now lets try to write a program which will tell if the number is even or odd. Lets go back to Jarvis: Hi Jarvis Remember 10 as number check if 10%2 == 0 if yes show 10 is even else show 10 is odd Now part of the program still under-construction is as shown below To make it right we need to use if statement Now adding if to the program earlier This program looks ok but lets take dynamic input from user, now the program looks like Sample debugging screenshot","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Python Free Classroom Notes" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Python Free Classroom Notes</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">12 Conditional Statements</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-07-30T23:05:08+05:30" itemprop="datePublished">Jul 30, 2020
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h3 id="conditional-statements">Conditional Statements</h3>
+<ul>
+  <li>If you consider the code
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>print(1)
+print(2)
+print(3)
+print(4)
+print(5)
+print(6)
+print(7)
+print(8)
+print(9)
+print(10)
+</code></pre></div>    </div>
+  </li>
+  <li>Python will execute all the lines one after other, now lets try to write a program which will tell if the number is even or odd.</li>
+  <li>Lets go back to Jarvis:
+<code class="language-plaintext highlighter-rouge">Hi Jarvis
+Remember 10 as number
+check if 10%2 == 0
+if yes show 10 is even
+else show 10 is odd
+</code></li>
+  <li>Now part of the program still under-construction is as shown below</li>
+  <li>To make it right we need to use if statement</li>
+  <li>Now adding if to the program earlier</li>
+  <li>This program looks ok but lets take dynamic input from user, now the program looks like</li>
+  <li>Sample debugging screenshot</li>
+</ul>
+
+<p><img src="../../../../assets/python50.png" alt="preview" /></p>
+
+<ul>
+  <li>Will we ever ask questions like
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. are you an engineer?
+2. are you not an engineer?
+</code></pre></div>    </div>
+  </li>
+  <li>Then we have done the same thing in the above program?. To solve this i have if/else statement
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>if &lt;condition&gt;:
+  &lt;true-block&gt;
+else:
+  &lt;false block&gt;
+</code></pre></div>    </div>
+  </li>
+  <li>Now our program look like
+```python
+number = int(input(‘Enter the number of your choice:  ‘)) # assignment statement</li>
+</ul>
+
+<p>if number%2 == 0:
+    print(“you have chosen an even number”)
+else:
+    print(“you have chosen an odd number”)</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* Debug this program
+* Now lets write a program which calculates average of 3 subjects and gives them grades
+</code></pre></div></div>
+<p>average = sub1+sub2+sub3/3</p>
+
+<p>average &gt;= 70 =&gt; distinction
+average &gt;=60 =&gt; first class
+average &gt;= 50 =&gt; second class
+third class</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* Now lets speak with jarvis to make our conversation with python3 simple
+</code></pre></div></div>
+<p>Hi jarvis
+Take input from user and remember as maths
+Take input from user and remember as physics
+Take input from user and remember as chemistry
+now calculate (maths+physics+chemistry)/3 and remember as average
+when average &gt;=70 print distinction
+when average &gt;=60 print first class
+when average &gt;= 50 print second class
+for all other cases print third class</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* So our program will be
+```python
+maths = int(input("Enter the marks obtained in maths:  "))
+physics = int(input("Enter the marks obtained in physics:  "))
+chemistry = int(input("Enter the marks obtained in chemistry:  "))
+average = (maths+physics+chemistry)/3
+if average &gt;= 70:
+    print("Distinction")
+elif average &gt;= 60:
+    print("First class")
+elif average &gt;= 50:
+    print("Second class")
+else:
+    print("Third class")
+</code></pre></div></div>
+<ul>
+  <li>Other way of solving this program could be
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">maths</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">"Enter the marks obtained in maths:  "</span><span class="p">))</span>
+<span class="n">physics</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">"Enter the marks obtained in physics:  "</span><span class="p">))</span>
+<span class="n">chemistry</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">"Enter the marks obtained in chemistry:  "</span><span class="p">))</span>
+<span class="n">average</span> <span class="o">=</span> <span class="p">(</span><span class="n">maths</span><span class="o">+</span><span class="n">physics</span><span class="o">+</span><span class="n">chemistry</span><span class="p">)</span><span class="o">/</span><span class="mi">3</span>
+<span class="k">if</span> <span class="n">average</span> <span class="o">&gt;=</span> <span class="mi">70</span><span class="p">:</span>
+  <span class="k">print</span><span class="p">(</span><span class="s">"Distinction"</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+  <span class="k">if</span> <span class="n">average</span> <span class="o">&gt;=</span> <span class="mi">60</span><span class="p">:</span>
+      <span class="k">print</span><span class="p">(</span><span class="s">"first class"</span><span class="p">)</span>
+  <span class="k">else</span><span class="p">:</span>
+      <span class="k">if</span> <span class="n">average</span><span class="o">&gt;=</span><span class="mi">50</span><span class="p">:</span>
+          <span class="k">print</span><span class="p">(</span><span class="s">"second class"</span><span class="p">)</span>
+      <span class="k">else</span><span class="p">:</span>
+          <span class="k">print</span><span class="p">(</span><span class="s">"third class"</span><span class="p">)</span>
+</code></pre></div>    </div>
+  </li>
+  <li>One more of way
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">maths</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">"Enter the marks obtained in maths:  "</span><span class="p">))</span>
+<span class="n">physics</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">"Enter the marks obtained in physics:  "</span><span class="p">))</span>
+<span class="n">chemistry</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">"Enter the marks obtained in chemistry:  "</span><span class="p">))</span>
+<span class="n">average</span> <span class="o">=</span> <span class="p">(</span><span class="n">maths</span><span class="o">+</span><span class="n">physics</span><span class="o">+</span><span class="n">chemistry</span><span class="p">)</span><span class="o">/</span><span class="mi">3</span>
+<span class="k">if</span> <span class="n">average</span> <span class="o">&gt;=</span> <span class="mi">70</span><span class="p">:</span>
+  <span class="k">print</span><span class="p">(</span><span class="s">"Distinction"</span><span class="p">)</span>
+<span class="k">if</span> <span class="mi">60</span> <span class="o">&lt;=</span> <span class="n">average</span> <span class="o">&lt;</span> <span class="mi">70</span><span class="p">:</span>
+  <span class="k">print</span><span class="p">(</span><span class="s">"First class"</span><span class="p">)</span>
+<span class="k">if</span> <span class="mi">50</span> <span class="o">&lt;=</span> <span class="n">average</span> <span class="o">&lt;</span> <span class="mi">60</span><span class="p">:</span>
+  <span class="k">print</span><span class="p">(</span><span class="s">"second class"</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">average</span> <span class="o">&lt;</span> <span class="mi">50</span><span class="p">:</span>
+  <span class="k">print</span><span class="p">(</span><span class="s">"third class"</span><span class="p">)</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+  </div><a class="u-url" href="/python/2020/07/30/Session-12.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Python Free Classroom Notes</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Python Free Classroom Notes</li><li><a class="u-email" href="mailto:harrycreatives@outlook.com">harrycreatives@outlook.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/jekyll"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">jekyll</span></a></li><li><a href="https://www.twitter.com/jekyllrb"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">jekyllrb</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Khaja Sir Classroom notes of free python Sessions</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

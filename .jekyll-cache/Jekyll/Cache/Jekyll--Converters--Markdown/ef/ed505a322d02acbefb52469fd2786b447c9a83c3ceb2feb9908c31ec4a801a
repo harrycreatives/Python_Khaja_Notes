@@ -1,0 +1,84 @@
+I"N
+<h3 id="why-programming">Why Programming?</h3>
+<ul>
+  <li>In majority of cases we do programming to get paid.</li>
+  <li>Organizations might need
+    <ul>
+      <li>Some applications</li>
+      <li>Automate some of the manual work</li>
+    </ul>
+  </li>
+  <li>Building apps/games etc..</li>
+</ul>
+
+<h3 id="what-happens-when-you-run-applications">What happens when you run applications</h3>
+<p><img src="../../../../assets/python01.png" alt="preview" /></p>
+
+<h3 id="how-do-i-build-applications">How do I build applications</h3>
+<ul>
+  <li>Speak/write to Processor directly
+    <ul>
+      <li>Processor understands 0’s or 1’s</li>
+    </ul>
+  </li>
+  <li>Speak/Write the language that is easy for humans to understand
+    <ul>
+      <li>Assembly languages</li>
+      <li>High Level Languages</li>
+    </ul>
+  </li>
+  <li>With High Level Languages, we need some one to transform instructions
+    <ul>
+      <li>Compiler</li>
+      <li>Interpreter</li>
+    </ul>
+  </li>
+  <li>These High Level Languages are also referred as Programming Languages, Some of Popular Programming languages are:
+    <ul>
+      <li>Bash: It is automating command line tasks on linux/unix</li>
+      <li>C: As a general purpose language</li>
+      <li>C++</li>
+      <li>Java</li>
+      <li>C#</li>
+      <li>Python</li>
+      <li>Ruby</li>
+      <li>Objective-c</li>
+      <li>Swift</li>
+      <li>JavaScript</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="getting-to-know-your-computer">Getting to Know Your Computer</h3>
+<ul>
+  <li>Computer is stupid.
+    <ul>
+      <li>Computer follows instructions, if your instructions are good enough, you can even play chess</li>
+    </ul>
+  </li>
+  <li>Computers seem to be intelligent depending on instructions which we pass (applications).</li>
+</ul>
+
+<h3 id="how-programs-work">How Programs work</h3>
+<ul>
+  <li>Programs work as shown below:</li>
+</ul>
+
+<p><img src="../../../../assets/python02.png" alt="preview" /></p>
+<ul>
+  <li>To store results in ram we generally use some thing as variables</li>
+  <li>To tell how much of memory should i reserve on RAM we use datatypes.</li>
+</ul>
+
+<h3 id="how-to-be-effective-in-writing-programs">How to be effective in Writing Programs</h3>
+<ol>
+  <li>Don’t directly write programs</li>
+  <li>Lets introduce a character ‘Snake’ or ‘Kid’, to which we will communicate our intentions
+    <ul>
+      <li>‘Snake’ or ‘Kid’ knows how to reserve memory in RAM</li>
+      <li>‘Snake’ or ‘Kid’ knows how to add, subtract, divide, multiplicate</li>
+    </ul>
+  </li>
+  <li>We would try to speak with ‘Snake’ or ‘Kid’ to get our logics implemented</li>
+</ol>
+:ET

@@ -1,0 +1,152 @@
+I"�<h3 id="initializing-the-object">Initializing the object</h3>
+<ul>
+  <li>Lets look at Point class which we have written so far
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Point</span><span class="p">:</span>
+  <span class="k">def</span> <span class="nf">reset</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+      <span class="bp">self</span><span class="p">.</span><span class="n">x</span> <span class="o">=</span> <span class="mi">0</span>
+      <span class="bp">self</span><span class="p">.</span><span class="n">y</span> <span class="o">=</span> <span class="mi">0</span>
+</code></pre></div>    </div>
+  </li>
+  <li>If we don’t explicitly set x and y positions on Our point object, we have a broken point with not real positions, So better idea would be enforcing user to pass the values of x and y while instantiating object from class</li>
+  <li>So in many object oriented languages we have a concept of constructor which is a special method that creates and initializes the object</li>
+  <li>In Python we have a constructor &amp; a initializer. We rarely use constructor and often use initializer</li>
+  <li>In python whenever you come across methods with <code class="language-plaintext highlighter-rouge">__method_name__</code>, these methods are known as magic methods or dunder (double underscore)</li>
+  <li>Python initialization method is also a magic method and it has a name <code class="language-plaintext highlighter-rouge">__init__</code></li>
+  <li>Lets use initialization in the Point code</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Point</span><span class="p">:</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">x</span> <span class="o">=</span> <span class="n">x</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">y</span> <span class="o">=</span> <span class="n">y</span>
+    
+    <span class="k">def</span> <span class="nf">reset</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">x</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">y</span> <span class="o">=</span> <span class="mi">0</span>
+    
+    <span class="k">def</span> <span class="nf">print</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">print</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="bp">self</span><span class="p">.</span><span class="n">y</span><span class="p">)</span>
+
+<span class="c1"># To instantiate an object
+</span><span class="n">p</span> <span class="o">=</span> <span class="n">Point</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">)</span>
+<span class="n">p</span><span class="p">.</span><span class="k">print</span><span class="p">()</span>
+<span class="n">p</span><span class="p">.</span><span class="n">reset</span><span class="p">()</span>
+<span class="n">p</span><span class="p">.</span><span class="k">print</span><span class="p">()</span>
+</code></pre></div></div>
+<p><img src="../../../../assets/python68.png" alt="preview" /></p>
+
+<ul>
+  <li>
+    <p>Even if the user doesn’t pass x,y values i want to set some default values
+```python
+class Point:
+  def <strong>init</strong>(self, x=0, y=0):
+      self.x = x
+      self.y = y</p>
+
+    <p>def reset(self):
+      self.x = 0
+      self.y = 0</p>
+
+    <p>def print(self):
+      print(self.x, self.y)</p>
+  </li>
+</ul>
+
+<h1 id="to-instantiate-an-object">To instantiate an object</h1>
+<p>p = Point(4,5)
+p.print()
+p.reset()
+p.print()</p>
+
+<h1 id="lets-instantiate-a-new-object-with-default-arguments">Lets instantiate a new object with default arguments</h1>
+<p>print(“printing default arguments based object”)
+new_point = Point()
+new_point.print()</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![preview](../../../../assets/python69.png)
+
+* In initialization after the object is created __init__ will be called to initialize the values
+* Constructor in the case of the python is ```__new__```
+
+### Explaining Classes
+* Python supports writing documentation of your classes &amp; methods using __docstrings__.
+* Lets look at our program
+```python
+class Point:
+    "Represents a point in two dimensional space"
+
+    def __init__(self, x=0, y=0):
+        """ Initialize the position of a new point. 
+        x and y coordinates can be specified. 
+        If they are not specified, point defaults to origin
+        """
+        self.x = x
+        self.y = y
+    
+    def reset(self):
+        """
+        Resets the point back to origin: 0,0
+        """
+        self.x = 0
+        self.y = 0
+    
+    def print(self):
+        """
+        Prints the co-ordinates
+        """
+        print(self.x, self.y)
+</code></pre></div></div>
+<ul>
+  <li>Now importing this code in the Python interactive shell and we can view the help of the class.</li>
+</ul>
+
+<p><img src="../../../../assets/python70.png" alt="preview" /></p>
+
+<ul>
+  <li>There are document generators in Python which can create a html documentation of your classes when you write doc strings.</li>
+  <li><a href="https://www.python.org/dev/peps/pep-0257/#:~:text=A%20docstring%20is%20a%20string,module%20should%20also%20have%20docstrings.">Refer Here</a> for official docstring documentation.</li>
+  <li>Now lets debug our class in visual studio code. While debugging the classes we will use <strong>Step into</strong> which will help in moving into functions/operations/behaviors while debugging</li>
+  <li>Exercise: Create a class called as <strong>Number</strong> which will have operations such as
+    <ul>
+      <li>is_even</li>
+      <li>is_prime</li>
+      <li>is_palindrome
+        <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Number</span><span class="p">:</span>
+<span class="s">""" 
+This represents a number which has some operations 
+for mathematical convenience
+"""</span>
+
+<span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">number</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+    <span class="s">"""
+    Initializes number with value passed otherwise
+    initializes to zero
+    """</span>
+    <span class="k">pass</span>
+
+<span class="k">def</span> <span class="nf">is_even</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="s">"""
+    This operation returns true if the number is even,
+    false other wise
+    """</span>
+    <span class="k">pass</span>
+
+<span class="k">def</span> <span class="nf">is_prime</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="s">"""
+    This operation returns true if the number is prime,
+    false other wise
+    """</span>
+    <span class="k">pass</span>
+
+<span class="k">def</span> <span class="nf">is_palindrome</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="s">"""
+    This operation returns true if the number is palindrome,
+    false other wise
+    """</span>
+    <span class="k">pass</span>
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+</ul>
+:ET

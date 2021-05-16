@@ -1,0 +1,136 @@
+I"Ê<h3 id="compiler-and-interpreter">Compiler and Interpreter</h3>
+
+<h3 id="casestudy-1">CaseStudy-1</h3>
+<ul>
+  <li>Lets take an example of Avengers Movie.</li>
+  <li>This movie is made in english and realeased worldwide.</li>
+  <li>To make the reach wider, the movie was dubbed in local languages</li>
+</ul>
+
+<p><img src="../../../../assets/python06.jpg" alt="preview" /></p>
+
+<p><img src="../../../../assets/python07.jpg" alt="preview" /></p>
+
+<ul>
+  <li>How does this dubbing work?
+    <ul>
+      <li>Conversations are converted into local languages before the movie is played in theatres</li>
+      <li>
+        <p>Play time will be same in all languages</p>
+
+        <p><img src="../../../../assets/python08.jpg" alt="preview" /></p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="compiler-casestudy-1">Compiler (CaseStudy-1)</h3>
+<ul>
+  <li>Compiler converts source code into machine language (or intermediate language) before the program is executed. This is what we call as compilation.</li>
+  <li>Example C-Program on windows
+    <ul>
+      <li>Compile C-program into windows exe using a compiler which can compile to windows</li>
+      <li>Compile C-program into Mac using a compiler which can compile to mac</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="casestudy-2">CaseStudy-2</h3>
+<ul>
+  <li>Obama speech in India to local crowd Preview</li>
+  <li>How does this work?
+    <ul>
+      <li>To make the speech reach to audience we have a translator</li>
+      <li>Translator converts during the speach</li>
+      <li>This might take more time as the conversion is happening live</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="interpretor-casestudy-2">Interpretor (CaseStudy-2)</h3>
+<ul>
+  <li>Interpretor has to be present where the application is running</li>
+  <li>Interpretor converts the source language into machine language while the application is running.</li>
+  <li>To make Java Programs run on window
+    <ul>
+      <li>We install JDK on Windows and then run java code</li>
+    </ul>
+  </li>
+  <li>To make Python Code run on Mac
+    <ul>
+      <li>We install python on mac and then execute python code</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="memory-allocations-and-memory-leaks">Memory allocations and Memory Leaks</h3>
+<ul>
+  <li>When any application is executed, it needs memory and memory is provided to programs using RAM.</li>
+  <li>The memory in RAM looks like:</li>
+</ul>
+
+<p><img src="../../../../assets/python06.png" alt="preview" /></p>
+
+<ul>
+  <li>Each location in this memory will have address and assume each block is of size 1 byte</li>
+  <li>When applications they request memory and the size has to be specified, to simplify this in programming languages we have <strong>Datatypes</strong></li>
+  <li><strong>Datatype</strong> primarily will tell size required.</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># c or C# or Java
+int a
+
+Please allocate memory for int which is 4 bytes and call it as a
+
+float b
+
+please allocate memory for float which is 8 bytes and call it as b
+</code></pre></div></div>
+<ul>
+  <li>In Some Datatype it is easy to tell the size upfront like int below</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>int = 4 bytes = 32 bits =&gt; -2^16 to 2^16-1
+                           -65,536 to 65,535
+
+int index = 10   =&gt; size 4 bytes
+
+index = 1000     =&gt; size 4 bytes
+</code></pre></div></div>
+<ul>
+  <li>Lets assume text/strings, each character takes 2 bytes</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>string message = "hello" =&gt; size = 10 bytes
+
+message = "how are you" =&gt; size = 22 bytes
+</code></pre></div></div>
+<ul>
+  <li>
+    <p>In some datatypes memory might increase with value changes</p>
+  </li>
+  <li>
+    <p>To cope up with this problem, programming languages use</p>
+
+    <ul>
+      <li>Mutable dataypes: Change in value will not impact memory allocations</li>
+      <li>Immutable datatypes: If the variable value is changed a new memory location is created
+        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mutable
+a = 10   address (a) =&gt; 0x1234
+a = 15   address (a) =&gt; 0x1234
+</code></pre></div>        </div>
+        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Immutable
+a = 10   address (a) =&gt; 0x1234
+a = 15   address (a) =&gt; 0x2345
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Memory Leak: Memory leak is the memory which has been given to your application, which is not in use by your program and also is not relased/free/deallocated.</p>
+  </li>
+  <li>
+    <p>Garbage Collector: In some older programming languages, when you allocate memory it is your responsibility to free it. These days all the major programming languages come with Garbage Collector. Garbage collector responsiblity is to free the unused memory</p>
+  </li>
+</ul>
+:ET

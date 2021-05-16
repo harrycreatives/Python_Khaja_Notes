@@ -1,0 +1,13 @@
+I"«<h3 id="relationships-contd">Relationships (contd..)</h3>
+<ul>
+  <li>Describe Object Oriented stuff diagrammatically we use UML (Unified Modelling Language)</li>
+  <li>I have oranges and i can place oranges in a basket
+    <ul>
+      <li>Orange is an object</li>
+      <li>Basket is an object</li>
+    </ul>
+  </li>
+  <li>There is a relationship b/w basket and oranges</li>
+  <li>To represent in basic class diagram</li>
+</ul>
+:ET

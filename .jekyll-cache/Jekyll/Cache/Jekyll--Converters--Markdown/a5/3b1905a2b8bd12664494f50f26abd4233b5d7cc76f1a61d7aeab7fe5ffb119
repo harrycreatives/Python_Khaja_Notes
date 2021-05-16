@@ -1,0 +1,26 @@
+I"+<h3 id="unified-modeling-language">Unified Modeling Language</h3>
+<ul>
+  <li>In UML we have two basic kinds of Modeling
+    <ul>
+      <li>Structural Modeling</li>
+      <li>Behavioral Modeling</li>
+    </ul>
+  </li>
+  <li>Structural Modeling: It represents the framework for the system &amp; it captures static features of design. The following are popular diagrams:
+    <ul>
+      <li>Class diagrams</li>
+      <li>Object diagrams</li>
+      <li>Deployment diagrams</li>
+      <li>Package Diagrams</li>
+      <li>Component diagrams</li>
+    </ul>
+  </li>
+  <li>Behavioral Modeling: It captures interactions in the system. The following diagrams are part of behavioral modeling
+    <ul>
+      <li>Activity diagram</li>
+      <li>Interaction diagram</li>
+      <li>Use case diagram</li>
+    </ul>
+  </li>
+</ul>
+:ET

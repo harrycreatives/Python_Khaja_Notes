@@ -1,0 +1,12 @@
+I"†<h3 id="python-interpreter">Python Interpreter</h3>
+<ul>
+  <li>Python Interpreter executes the python programs.</li>
+  <li>When you install python on your system, interpreter is also part of installation.</li>
+  <li>Python interpreter will read your program &amp; execute.</li>
+  <li>Lets create a simple program called as hello.py
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">"hello python"</span><span class="p">)</span>
+</code></pre></div>    </div>
+  </li>
+  <li>Open terminal on your system (Powershell)</li>
+</ul>
+:ET

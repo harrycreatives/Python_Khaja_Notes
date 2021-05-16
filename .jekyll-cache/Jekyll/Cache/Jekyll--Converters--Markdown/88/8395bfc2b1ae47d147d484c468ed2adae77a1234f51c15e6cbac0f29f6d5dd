@@ -1,0 +1,212 @@
+I"�<h3 id="objects-in-python">Objects in Python</h3>
+<ul>
+  <li>We will understand the following
+    <ol>
+      <li>How to create classes and instantiate objects in Python</li>
+      <li>How to add attributes and operations/methods/behaviors to Python objects</li>
+    </ol>
+  </li>
+</ul>
+
+<h3 id="creating-python-classes">Creating Python classes</h3>
+<p>Lets create a new file called as <em>helloclass.py</em> with the following:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">HelloClass</span><span class="p">:</span>
+    <span class="k">pass</span>
+</code></pre></div></div>
+<ul>
+  <li>This is our first object-oriented program.</li>
+  <li>To name your classes Lets try to understand naming conventions from PEP-8. <a href="https://www.python.org/dev/peps/pep-0008/#class-names">Refer Here</a> Class names should be named using <strong>CapWords</strong></li>
+  <li><strong>pass</strong> keyword indicates that no further action needs to be taken</li>
+  <li>Now lets create objects
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">object_1</span> <span class="o">=</span> <span class="n">HelloClass</span><span class="p">()</span>
+<span class="n">object_2</span> <span class="o">=</span> <span class="n">HelloClass</span><span class="p">()</span>
+<span class="k">print</span><span class="p">(</span><span class="n">object_1</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">object_2</span><span class="p">)</span>
+</code></pre></div>    </div>
+    <p><img src="../../../../assets/python62.png" alt="preview" /></p>
+  </li>
+  <li>This code is creating objects (instantiates) two objects from <strong>HelloClass</strong> named object_1 &amp; object_2</li>
+  <li>When printed these two objects tell us what memory address they live in</li>
+</ul>
+
+<h3 id="adding-attributes">Adding Attributes</h3>
+<ul>
+  <li>Lets create one more file called point.py and add a <strong>Point</strong> class
+```python
+class Point:
+  pass</li>
+</ul>
+
+<p>p1 = Point()
+p2 = Point()</p>
+
+<p>p1.x = 6
+p2.x = 5
+p1.y = 7
+p2.y = 6
+print(p1.x, p1.y)
+print(p2.x, p2.y)</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* Lets execute this program 
+</code></pre></div></div>
+<p>python point.py</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![preview](../../../../assets/python63.png)
+* All we need to do to assign a value to an attribute on an object is ```&lt;object&gt;.&lt;attribute&gt; = &lt;value&gt;```
+
+### Add Operations or behavior
+* Now lets create a new implementation of our __Point__ class.
+```python
+class Point:
+    def reset(self):
+        self.x = 0
+        self.y = 0
+
+p1 = Point()
+p2 = Point()
+
+p1.x = 6
+p2.x = 5
+p1.y = 7
+p2.y = 6
+
+print(p1.x, p1.y)
+print(p2.x, p2.y)
+p1.reset()
+p2.reset()
+print(p1.x, p1.y)
+print(p2.x, p2.y)
+</code></pre></div></div>
+<ul>
+  <li>Now lets execute this code</li>
+</ul>
+
+<p><img src="../../../../assets/python64.png" alt="preview" /></p>
+
+<ul>
+  <li>Operations or behaviors of class will be defined using def keyword
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def &lt;operation_name&gt;(&lt;parameters&gt;):
+  &lt;code&gt;
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Now to understand about self lets look at this code
+```python
+class Point:
+  def reset(self):
+      print(“resetting”)
+      self.x = 0
+      self.y = 0</p>
+
+    <p>def square(this):
+      print(“performing square”)
+      this.x = this.x<strong>2
+      this.y = this.y</strong>2</p>
+
+    <p>def print(current):
+      print(current.x, current.y)</p>
+  </li>
+</ul>
+
+<p>p1 = Point()
+p2 = Point()</p>
+
+<p>p1.x = 6
+p2.x = 5
+p1.y = 7
+p2.y = 6</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* All operations of the class will have the first parameter with any name, but this argument is conventionally named as __self__. I’ve never seen a python programmer use any other name
+* Lets follow the convention and change the code to __self__ in operations.
+```python
+class Point:
+    def reset(self):
+        print("resetting")
+        self.x = 0
+        self.y = 0
+
+    def square(self):
+        print("performing square")
+        self.x = self.x**2
+        self.y = self.y**2
+
+    def print(self):
+        print(self.x, self.y)
+
+p1 = Point()
+p2 = Point()
+
+p1.x = 6
+p2.x = 5
+p1.y = 7
+p2.y = 6
+
+p1.print()
+p2.print()
+p1.square()
+p2.square()
+p1.print()
+p2.print()
+p1.reset()
+p2.reset()
+p1.print()
+p2.print()
+</code></pre></div></div>
+<ul>
+  <li>When we call operations we use <code class="language-plaintext highlighter-rouge">&lt;object&gt;.&lt;operation_name&gt;()</code>, then python internally passes the object to the self argument or self argument will have current objects reference</li>
+  <li>We can call the operations in a different way <code class="language-plaintext highlighter-rouge">&lt;class&gt;.&lt;operation_name&gt;(&lt;object&gt;)</code>
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">p3</span> <span class="o">=</span> <span class="n">Point</span><span class="p">()</span>
+<span class="n">p3</span><span class="p">.</span><span class="n">x</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="n">p3</span><span class="p">.</span><span class="n">y</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="n">Point</span><span class="p">.</span><span class="k">print</span><span class="p">(</span><span class="n">p3</span><span class="p">)</span>
+</code></pre></div>    </div>
+  </li>
+  <li>What will happen if we don’t use self
+```python
+class Point:
+  def reset():
+     pass</li>
+</ul>
+
+<p>p1 = Point()
+p1.reset()</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![preview](../../../../assets/python65.png)
+
+* The error message is simply trying to tell you forgot __self__ argument, whenever you call an operation from object, object itself will be passed as an argument to your method.
+* Lets add more arguments to operations.
+</code></pre></div></div>
+<p>class Point:
+    def reset(self):
+        print(“resetting”)
+        self.x = 0
+        self.y = 0</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>def square(self):
+    print("performing square")
+    self.x = self.x**2
+    self.y = self.y**2
+
+def print(self):
+    print(self.x, self.y)
+
+def move(self, x, y):
+    self.x = x
+    self.y = y
+
+def add(self, x, y):
+    self.x = self.x + x
+    self.y = self.y + y
+</code></pre></div></div>
+
+<p>p = Point()
+p.x = 4
+p.y = 5
+p.print()
+p.move(2,3)
+p.print()
+p.add(1,1)
+p.print()</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![preview](../../../../assets/python66.png)
+* How to import classes in python interactive shell (REPL)
+</code></pre></div></div>
+<p>python -i point.py
+```
+<img src="../../../../assets/python67.png" alt="preview" /></p>
+:ET

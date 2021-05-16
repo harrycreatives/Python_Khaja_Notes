@@ -1,0 +1,72 @@
+I"‹<h3 id="project-euler-problem-2">Project euler problem 2</h3>
+<ul>
+  <li><a href="https://projecteuler.net/problem=2">Refer Here</a> for problem.</li>
+  <li>Lets speak with jarvis
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Hi Jarvis
+remember 2 as result
+remember 1 as value_1
+remember 2 as value_2
+remember sum as 0
+continue till value_1 + value_2 &lt;= 4000000
+sum = value_1 + value_2
+check if sum is even if yes add to result
+value_1 = value_2
+value_2 = sum
+</code></pre></div>    </div>
+  </li>
+  <li>The Python program is
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">value_1</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="n">value_2</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="n">result</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="nb">sum</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">while</span> <span class="n">value_1</span> <span class="o">+</span> <span class="n">value_2</span> <span class="o">&lt;=</span> <span class="mi">4000000</span><span class="p">:</span>
+  <span class="nb">sum</span> <span class="o">=</span> <span class="n">value_1</span> <span class="o">+</span> <span class="n">value_2</span>
+  <span class="k">if</span> <span class="nb">sum</span><span class="o">%</span><span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+      <span class="n">result</span> <span class="o">=</span> <span class="n">result</span> <span class="o">+</span> <span class="nb">sum</span>
+  <span class="n">value_1</span> <span class="o">=</span> <span class="n">value_2</span>
+  <span class="n">value_2</span> <span class="o">=</span> <span class="nb">sum</span>
+<span class="k">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h3 id="project-euler-problem-3">Project euler problem 3</h3>
+<ul>
+  <li><a href="https://projecteuler.net/problem=3">Refer Here</a> for problem.</li>
+  <li>Lets speak with jarvis
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Hi jarvis
+remember 13195  as number
+calculate number//2 and remember as factor
+continue till factor &gt; 1
+  check if number is divisible by factor (number%factor == 0)
+  if yes
+     find if it is prime or not
+     remeber is_primefactor with value true
+     start from 2 till factor//2 and check if the number is divisble by any number. 
+     if yes is_primefactor will be false
+  if is_primefactor is true
+    print number &amp; exit program
+</code></pre></div>    </div>
+  </li>
+  <li>Python program is
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">number</span> <span class="o">=</span> <span class="mi">13195</span>
+<span class="n">factor</span> <span class="o">=</span> <span class="n">number</span><span class="o">//</span><span class="mi">2</span>
+<span class="k">while</span> <span class="n">factor</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+  <span class="k">if</span> <span class="n">number</span><span class="o">%</span><span class="n">factor</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+      <span class="c1"># This means it is a factor
+</span>      <span class="c1"># now check if this factor is prime
+</span>      <span class="n">is_prime_factor</span> <span class="o">=</span> <span class="bp">True</span>
+      <span class="n">index</span> <span class="o">=</span> <span class="mi">2</span>
+      <span class="k">while</span> <span class="n">index</span> <span class="o">&lt;=</span> <span class="n">factor</span><span class="o">//</span><span class="mi">2</span><span class="p">:</span>
+          <span class="k">if</span> <span class="n">factor</span><span class="o">%</span><span class="n">index</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+              <span class="n">is_prime_factor</span> <span class="o">=</span> <span class="bp">False</span>
+              <span class="k">break</span>
+          <span class="n">index</span> <span class="o">=</span> <span class="n">index</span> <span class="o">+</span> <span class="mi">1</span>
+      <span class="k">if</span> <span class="n">is_prime_factor</span> <span class="o">==</span> <span class="bp">True</span><span class="p">:</span>
+          <span class="k">print</span><span class="p">(</span><span class="n">factor</span><span class="p">)</span>
+          <span class="nb">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+  <span class="n">factor</span> <span class="o">=</span> <span class="n">factor</span> <span class="o">-</span><span class="mi">1</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+:ET

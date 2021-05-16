@@ -1,0 +1,13 @@
+I"O<h3 id="number-guessing-logic">Number Guessing Logic</h3>
+<ul>
+  <li>Number guessing question:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Lets use our python3 to build a number guessing game
+We will tell python3 to remember some number randomly
+Now we will ask user to enter inputs
+if the value entered by user is less than number remeber give hints to the user
+</code></pre></div>    </div>
+  </li>
+  <li>Lets use our old friend Jarvis &amp; Speak english
+<img src="../../../../assets/python05.png" alt="preview" /></li>
+</ul>
+:ET

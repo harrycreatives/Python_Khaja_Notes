@@ -1,0 +1,86 @@
+I"«	<h3 id="unified-modeling-language">Unified Modeling Language</h3>
+<ul>
+  <li>In UML we have two basic kinds of Modeling
+    <ul>
+      <li>Structural Modeling</li>
+      <li>Behavioral Modeling</li>
+    </ul>
+  </li>
+  <li>Structural Modeling: It represents the framework for the system &amp; it captures static features of design. The following are popular diagrams:
+    <ul>
+      <li>Class diagrams</li>
+      <li>Object diagrams</li>
+      <li>Deployment diagrams</li>
+      <li>Package Diagrams</li>
+      <li>Component diagrams</li>
+    </ul>
+  </li>
+  <li>Behavioral Modeling: It captures interactions in the system. The following diagrams are part of behavioral modeling
+    <ul>
+      <li>Activity diagram</li>
+      <li>Interaction diagram</li>
+      <li>Use case diagram</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="class-diagram">Class Diagram</h3>
+<ul>
+  <li>Class Notation</li>
+</ul>
+
+<p><img src="../../../../assets/python58.png" alt="preview" /></p>
+
+<ul>
+  <li>Class Diagram for library</li>
+</ul>
+
+<p><img src="../../../../assets/python59.png" alt="preview" /></p>
+
+<h3 id="exercise">Exercise:</h3>
+<ul>
+  <li>Create a diagram as shown above for the following problem statement.</li>
+  <li>A Bank has savings account, fixed deposit account, recurring deposit account and loan accounts.</li>
+  <li>Bank Manager/Accountant would like to search with account number using AccountConsole.</li>
+  <li>Customers should be able to see account balance, last transactions.</li>
+  <li>Also represent Transactions in the diagram.</li>
+  <li>Lets try to come up with class diagram.</li>
+</ul>
+
+<p><img src="../../../../assets/python60.png" alt="preview" /></p>
+
+<h3 id="usecase-diagram">UseCase Diagram</h3>
+<ul>
+  <li>This is used to capture the dynamic aspects of system.</li>
+  <li>Use cases have
+    <ul>
+      <li>Actors</li>
+    </ul>
+  </li>
+  <li>Usecases represent high level activities</li>
+  <li>Lets draw a use case diagram for Bank Atm, we have 3 types of users
+    <ol>
+      <li>Customer: Uses atm for
+        <ul>
+          <li>Checking balances</li>
+          <li>Deposit funds</li>
+          <li>Withdraws funds</li>
+        </ul>
+      </li>
+      <li>Cashier
+        <ul>
+          <li>Deposit amount into ATM</li>
+        </ul>
+      </li>
+      <li>Admin/Technician:
+        <ul>
+          <li>Maintenance</li>
+          <li>Repair</li>
+        </ul>
+      </li>
+    </ol>
+  </li>
+</ul>
+
+<p><img src="../../../../assets/python61.png" alt="preview" /></p>
+:ET

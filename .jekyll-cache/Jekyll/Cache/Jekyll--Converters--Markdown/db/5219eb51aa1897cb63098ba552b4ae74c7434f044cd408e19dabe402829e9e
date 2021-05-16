@@ -1,0 +1,32 @@
+I"Ù<h3 id="project-euler-problem-2">Project euler problem 2</h3>
+<ul>
+  <li><a href="https://projecteuler.net/problem=2">Refer Here</a> for problem.</li>
+  <li>Lets speak with jarvis
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Hi Jarvis
+remember 2 as result
+remember 1 as value_1
+remember 2 as value_2
+remember sum as 0
+continue till value_1 + value_2 &lt;= 4000000
+sum = value_1 + value_2
+check if sum is even if yes add to result
+value_1 = value_2
+value_2 = sum
+</code></pre></div>    </div>
+  </li>
+  <li>The Python program is
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">value_1</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="n">value_2</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="n">result</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="nb">sum</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">while</span> <span class="n">value_1</span> <span class="o">+</span> <span class="n">value_2</span> <span class="o">&lt;=</span> <span class="mi">4000000</span><span class="p">:</span>
+  <span class="nb">sum</span> <span class="o">=</span> <span class="n">value_1</span> <span class="o">+</span> <span class="n">value_2</span>
+  <span class="k">if</span> <span class="nb">sum</span><span class="o">%</span><span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+      <span class="n">result</span> <span class="o">=</span> <span class="n">result</span> <span class="o">+</span> <span class="nb">sum</span>
+  <span class="n">value_1</span> <span class="o">=</span> <span class="n">value_2</span>
+  <span class="n">value_2</span> <span class="o">=</span> <span class="nb">sum</span>
+<span class="k">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+:ET

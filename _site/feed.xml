@@ -1,0 +1,1052 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-05-17T01:03:55+05:30</updated><id>/feed.xml</id><title type="html">Python Free Classroom Notes</title><subtitle>Khaja Sir Classroom notes of free python Sessions</subtitle><entry><title type="html">21 PyCharm and Features-25 Aug 2020</title><link href="/python/2020/08/25/Session-21.html" rel="alternate" type="text/html" title="21 PyCharm and Features-25 Aug 2020" /><published>2020-08-25T23:05:08+05:30</published><updated>2020-08-25T23:05:08+05:30</updated><id>/python/2020/08/25/Session-21</id><content type="html" xml:base="/python/2020/08/25/Session-21.html">&lt;h3 id=&quot;pycharm&quot;&gt;PyCharm&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;This is most popular IDE for python language.&lt;/li&gt;
+  &lt;li&gt;This has best of the class features such as:
+    &lt;ul&gt;
+      &lt;li&gt;Code completion and inspection&lt;/li&gt;
+      &lt;li&gt;Advanced debugging&lt;/li&gt;
+      &lt;li&gt;Supports for web programming &amp;amp; Frameworks such as Django, Flask and many more.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Pycharm has the following flavors
+    &lt;ul&gt;
+      &lt;li&gt;Community&lt;/li&gt;
+      &lt;li&gt;Professional (Paid)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Initially we will be using the Community Edition of PyCharm.
+&lt;a href=&quot;https://www.jetbrains.com/pycharm/download/#section=windows&quot;&gt;Refer Here&lt;/a&gt; for download links&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;PyCharm can be installed on Windows, MAC &amp;amp; Linux&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Download PyCharm Community Edition &amp;amp; install as per installation instructions&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Lets start PyCharm and setup one time settings&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../assets/python71.png&quot; alt=&quot;preview&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../assets/python72.png&quot; alt=&quot;preview&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../assets/python73.png&quot; alt=&quot;preview&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../assets/python74.png&quot; alt=&quot;preview&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;This is Starting Screen of PyCharm&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../assets/python75.png&quot; alt=&quot;preview&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lets create a new project using PyCharm&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../assets/python76.png&quot; alt=&quot;preview&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../assets/python77.png&quot; alt=&quot;preview&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../assets/python78.png&quot; alt=&quot;preview&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../assets/python79.png&quot; alt=&quot;preview&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Create a New python file for implementing a class called as Number and create a simple is_even method&lt;/li&gt;
+  &lt;li&gt;PyCharm starts hinting you&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../assets/python80.png&quot; alt=&quot;preview&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../assets/python81.png&quot; alt=&quot;preview&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../assets/python82.png&quot; alt=&quot;preview&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Now add docstring to the Number class
+&lt;img src=&quot;../../../../assets/python83.png&quot; alt=&quot;preview&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;KeyMaps&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../assets/python84.png&quot; alt=&quot;preview&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../assets/python85.png&quot; alt=&quot;preview&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Finding Shortcuts:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../assets/python86.png&quot; alt=&quot;preview&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../assets/python87.png&quot; alt=&quot;preview&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;PyCharm Navigation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../assets/python86.png&quot; alt=&quot;preview&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="Python" /><summary type="html">PyCharm This is most popular IDE for python language. This has best of the class features such as: Code completion and inspection Advanced debugging Supports for web programming &amp;amp; Frameworks such as Django, Flask and many more. Pycharm has the following flavors Community Professional (Paid) Initially we will be using the Community Edition of PyCharm. Refer Here for download links PyCharm can be installed on Windows, MAC &amp;amp; Linux</summary></entry><entry><title type="html">20 Objects and Classes Part 2</title><link href="/python/2020/08/13/Session-20.html" rel="alternate" type="text/html" title="20 Objects and Classes Part 2" /><published>2020-08-13T23:05:08+05:30</published><updated>2020-08-13T23:05:08+05:30</updated><id>/python/2020/08/13/Session-20</id><content type="html" xml:base="/python/2020/08/13/Session-20.html">&lt;h3 id=&quot;initializing-the-object&quot;&gt;Initializing the object&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Lets look at Point class which we have written so far
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Point&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;reset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+      &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+      &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;If we don’t explicitly set x and y positions on Our point object, we have a broken point with not real positions, So better idea would be enforcing user to pass the values of x and y while instantiating object from class&lt;/li&gt;
+  &lt;li&gt;So in many object oriented languages we have a concept of constructor which is a special method that creates and initializes the object&lt;/li&gt;
+  &lt;li&gt;In Python we have a constructor &amp;amp; a initializer. We rarely use constructor and often use initializer&lt;/li&gt;
+  &lt;li&gt;In python whenever you come across methods with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;__method_name__&lt;/code&gt;, these methods are known as magic methods or dunder (double underscore)&lt;/li&gt;
+  &lt;li&gt;Python initialization method is also a magic method and it has a name &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;__init__&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Lets use initialization in the Point code&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Point&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;
+        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;
+    
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;reset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+    
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# To instantiate an object
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Point&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;../../../../assets/python68.png&quot; alt=&quot;preview&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Even if the user doesn’t pass x,y values i want to set some default values
+```python
+class Point:
+  def &lt;strong&gt;init&lt;/strong&gt;(self, x=0, y=0):
+      self.x = x
+      self.y = y&lt;/p&gt;
+
+    &lt;p&gt;def reset(self):
+      self.x = 0
+      self.y = 0&lt;/p&gt;
+
+    &lt;p&gt;def print(self):
+      print(self.x, self.y)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;to-instantiate-an-object&quot;&gt;To instantiate an object&lt;/h1&gt;
+&lt;p&gt;p = Point(4,5)
+p.print()
+p.reset()
+p.print()&lt;/p&gt;
+
+&lt;h1 id=&quot;lets-instantiate-a-new-object-with-default-arguments&quot;&gt;Lets instantiate a new object with default arguments&lt;/h1&gt;
+&lt;p&gt;print(“printing default arguments based object”)
+new_point = Point()
+new_point.print()&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![preview](../../../../assets/python69.png)
+
+* In initialization after the object is created __init__ will be called to initialize the values
+* Constructor in the case of the python is ```__new__```
+
+### Explaining Classes
+* Python supports writing documentation of your classes &amp;amp; methods using __docstrings__.
+* Lets look at our program
+```python
+class Point:
+    &quot;Represents a point in two dimensional space&quot;
+
+    def __init__(self, x=0, y=0):
+        &quot;&quot;&quot; Initialize the position of a new point. 
+        x and y coordinates can be specified. 
+        If they are not specified, point defaults to origin
+        &quot;&quot;&quot;
+        self.x = x
+        self.y = y
+    
+    def reset(self):
+        &quot;&quot;&quot;
+        Resets the point back to origin: 0,0
+        &quot;&quot;&quot;
+        self.x = 0
+        self.y = 0
+    
+    def print(self):
+        &quot;&quot;&quot;
+        Prints the co-ordinates
+        &quot;&quot;&quot;
+        print(self.x, self.y)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Now importing this code in the Python interactive shell and we can view the help of the class.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../assets/python70.png&quot; alt=&quot;preview&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;There are document generators in Python which can create a html documentation of your classes when you write doc strings.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.python.org/dev/peps/pep-0257/#:~:text=A%20docstring%20is%20a%20string,module%20should%20also%20have%20docstrings.&quot;&gt;Refer Here&lt;/a&gt; for official docstring documentation.&lt;/li&gt;
+  &lt;li&gt;Now lets debug our class in visual studio code. While debugging the classes we will use &lt;strong&gt;Step into&lt;/strong&gt; which will help in moving into functions/operations/behaviors while debugging&lt;/li&gt;
+  &lt;li&gt;Exercise: Create a class called as &lt;strong&gt;Number&lt;/strong&gt; which will have operations such as
+    &lt;ul&gt;
+      &lt;li&gt;is_even&lt;/li&gt;
+      &lt;li&gt;is_prime&lt;/li&gt;
+      &lt;li&gt;is_palindrome
+        &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Number&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot; 
+This represents a number which has some operations 
+for mathematical convenience
+&quot;&quot;&quot;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;number&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;
+    Initializes number with value passed otherwise
+    initializes to zero
+    &quot;&quot;&quot;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;pass&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;is_even&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;
+    This operation returns true if the number is even,
+    false other wise
+    &quot;&quot;&quot;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;pass&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;is_prime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;
+    This operation returns true if the number is prime,
+    false other wise
+    &quot;&quot;&quot;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;pass&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;is_palindrome&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;
+    This operation returns true if the number is palindrome,
+    false other wise
+    &quot;&quot;&quot;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;pass&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="Python" /><summary type="html">Initializing the object Lets look at Point class which we have written so far class Point: def reset(self): self.x = 0 self.y = 0 If we don’t explicitly set x and y positions on Our point object, we have a broken point with not real positions, So better idea would be enforcing user to pass the values of x and y while instantiating object from class So in many object oriented languages we have a concept of constructor which is a special method that creates and initializes the object In Python we have a constructor &amp;amp; a initializer. We rarely use constructor and often use initializer In python whenever you come across methods with __method_name__, these methods are known as magic methods or dunder (double underscore) Python initialization method is also a magic method and it has a name __init__ Lets use initialization in the Point code</summary></entry><entry><title type="html">19 Objects and Classes Part 1</title><link href="/python/2020/08/12/Session-19.html" rel="alternate" type="text/html" title="19 Objects and Classes Part 1" /><published>2020-08-12T23:05:08+05:30</published><updated>2020-08-12T23:05:08+05:30</updated><id>/python/2020/08/12/Session-19</id><content type="html" xml:base="/python/2020/08/12/Session-19.html">&lt;h3 id=&quot;objects-in-python&quot;&gt;Objects in Python&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;We will understand the following
+    &lt;ol&gt;
+      &lt;li&gt;How to create classes and instantiate objects in Python&lt;/li&gt;
+      &lt;li&gt;How to add attributes and operations/methods/behaviors to Python objects&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;creating-python-classes&quot;&gt;Creating Python classes&lt;/h3&gt;
+&lt;p&gt;Lets create a new file called as &lt;em&gt;helloclass.py&lt;/em&gt; with the following:&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HelloClass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;pass&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;This is our first object-oriented program.&lt;/li&gt;
+  &lt;li&gt;To name your classes Lets try to understand naming conventions from PEP-8. &lt;a href=&quot;https://www.python.org/dev/peps/pep-0008/#class-names&quot;&gt;Refer Here&lt;/a&gt; Class names should be named using &lt;strong&gt;CapWords&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;pass&lt;/strong&gt; keyword indicates that no further action needs to be taken&lt;/li&gt;
+  &lt;li&gt;Now lets create objects
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;object_1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;HelloClass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;object_2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;HelloClass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;object_1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;object_2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;p&gt;&lt;img src=&quot;../../../../assets/python62.png&quot; alt=&quot;preview&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;This code is creating objects (instantiates) two objects from &lt;strong&gt;HelloClass&lt;/strong&gt; named object_1 &amp;amp; object_2&lt;/li&gt;
+  &lt;li&gt;When printed these two objects tell us what memory address they live in&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;adding-attributes&quot;&gt;Adding Attributes&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Lets create one more file called point.py and add a &lt;strong&gt;Point&lt;/strong&gt; class
+```python
+class Point:
+  pass&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;p1 = Point()
+p2 = Point()&lt;/p&gt;
+
+&lt;p&gt;p1.x = 6
+p2.x = 5
+p1.y = 7
+p2.y = 6
+print(p1.x, p1.y)
+print(p2.x, p2.y)&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* Lets execute this program 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;python point.py&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![preview](../../../../assets/python63.png)
+* All we need to do to assign a value to an attribute on an object is ```&amp;lt;object&amp;gt;.&amp;lt;attribute&amp;gt; = &amp;lt;value&amp;gt;```
+
+### Add Operations or behavior
+* Now lets create a new implementation of our __Point__ class.
+```python
+class Point:
+    def reset(self):
+        self.x = 0
+        self.y = 0
+
+p1 = Point()
+p2 = Point()
+
+p1.x = 6
+p2.x = 5
+p1.y = 7
+p2.y = 6
+
+print(p1.x, p1.y)
+print(p2.x, p2.y)
+p1.reset()
+p2.reset()
+print(p1.x, p1.y)
+print(p2.x, p2.y)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Now lets execute this code&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../assets/python64.png&quot; alt=&quot;preview&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Operations or behaviors of class will be defined using def keyword
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def &amp;lt;operation_name&amp;gt;(&amp;lt;parameters&amp;gt;):
+  &amp;lt;code&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Now to understand about self lets look at this code
+```python
+class Point:
+  def reset(self):
+      print(“resetting”)
+      self.x = 0
+      self.y = 0&lt;/p&gt;
+
+    &lt;p&gt;def square(this):
+      print(“performing square”)
+      this.x = this.x&lt;strong&gt;2
+      this.y = this.y&lt;/strong&gt;2&lt;/p&gt;
+
+    &lt;p&gt;def print(current):
+      print(current.x, current.y)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;p1 = Point()
+p2 = Point()&lt;/p&gt;
+
+&lt;p&gt;p1.x = 6
+p2.x = 5
+p1.y = 7
+p2.y = 6&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* All operations of the class will have the first parameter with any name, but this argument is conventionally named as __self__. I’ve never seen a python programmer use any other name
+* Lets follow the convention and change the code to __self__ in operations.
+```python
+class Point:
+    def reset(self):
+        print(&quot;resetting&quot;)
+        self.x = 0
+        self.y = 0
+
+    def square(self):
+        print(&quot;performing square&quot;)
+        self.x = self.x**2
+        self.y = self.y**2
+
+    def print(self):
+        print(self.x, self.y)
+
+p1 = Point()
+p2 = Point()
+
+p1.x = 6
+p2.x = 5
+p1.y = 7
+p2.y = 6
+
+p1.print()
+p2.print()
+p1.square()
+p2.square()
+p1.print()
+p2.print()
+p1.reset()
+p2.reset()
+p1.print()
+p2.print()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;When we call operations we use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;object&amp;gt;.&amp;lt;operation_name&amp;gt;()&lt;/code&gt;, then python internally passes the object to the self argument or self argument will have current objects reference&lt;/li&gt;
+  &lt;li&gt;We can call the operations in a different way &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;class&amp;gt;.&amp;lt;operation_name&amp;gt;(&amp;lt;object&amp;gt;)&lt;/code&gt;
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;p3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Point&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;p3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;p3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Point&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;What will happen if we don’t use self
+```python
+class Point:
+  def reset():
+     pass&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;p1 = Point()
+p1.reset()&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![preview](../../../../assets/python65.png)
+
+* The error message is simply trying to tell you forgot __self__ argument, whenever you call an operation from object, object itself will be passed as an argument to your method.
+* Lets add more arguments to operations.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;class Point:
+    def reset(self):
+        print(“resetting”)
+        self.x = 0
+        self.y = 0&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def square(self):
+    print(&quot;performing square&quot;)
+    self.x = self.x**2
+    self.y = self.y**2
+
+def print(self):
+    print(self.x, self.y)
+
+def move(self, x, y):
+    self.x = x
+    self.y = y
+
+def add(self, x, y):
+    self.x = self.x + x
+    self.y = self.y + y
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;p = Point()
+p.x = 4
+p.y = 5
+p.print()
+p.move(2,3)
+p.print()
+p.add(1,1)
+p.print()&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![preview](../../../../assets/python66.png)
+* How to import classes in python interactive shell (REPL)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;python -i point.py
+```
+&lt;img src=&quot;../../../../assets/python67.png&quot; alt=&quot;preview&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="Python" /><summary type="html">Objects in Python We will understand the following How to create classes and instantiate objects in Python How to add attributes and operations/methods/behaviors to Python objects</summary></entry><entry><title type="html">18 Unified Modelling Language</title><link href="/python/2020/08/11/Session-18.html" rel="alternate" type="text/html" title="18 Unified Modelling Language" /><published>2020-08-11T23:05:08+05:30</published><updated>2020-08-11T23:05:08+05:30</updated><id>/python/2020/08/11/Session-18</id><content type="html" xml:base="/python/2020/08/11/Session-18.html">&lt;h3 id=&quot;unified-modeling-language&quot;&gt;Unified Modeling Language&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;In UML we have two basic kinds of Modeling
+    &lt;ul&gt;
+      &lt;li&gt;Structural Modeling&lt;/li&gt;
+      &lt;li&gt;Behavioral Modeling&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Structural Modeling: It represents the framework for the system &amp;amp; it captures static features of design. The following are popular diagrams:
+    &lt;ul&gt;
+      &lt;li&gt;Class diagrams&lt;/li&gt;
+      &lt;li&gt;Object diagrams&lt;/li&gt;
+      &lt;li&gt;Deployment diagrams&lt;/li&gt;
+      &lt;li&gt;Package Diagrams&lt;/li&gt;
+      &lt;li&gt;Component diagrams&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Behavioral Modeling: It captures interactions in the system. The following diagrams are part of behavioral modeling
+    &lt;ul&gt;
+      &lt;li&gt;Activity diagram&lt;/li&gt;
+      &lt;li&gt;Interaction diagram&lt;/li&gt;
+      &lt;li&gt;Use case diagram&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;class-diagram&quot;&gt;Class Diagram&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Class Notation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../assets/python58.png&quot; alt=&quot;preview&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Class Diagram for library&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../assets/python59.png&quot; alt=&quot;preview&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;exercise&quot;&gt;Exercise:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Create a diagram as shown above for the following problem statement.&lt;/li&gt;
+  &lt;li&gt;A Bank has savings account, fixed deposit account, recurring deposit account and loan accounts.&lt;/li&gt;
+  &lt;li&gt;Bank Manager/Accountant would like to search with account number using AccountConsole.&lt;/li&gt;
+  &lt;li&gt;Customers should be able to see account balance, last transactions.&lt;/li&gt;
+  &lt;li&gt;Also represent Transactions in the diagram.&lt;/li&gt;
+  &lt;li&gt;Lets try to come up with class diagram.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../assets/python60.png&quot; alt=&quot;preview&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;usecase-diagram&quot;&gt;UseCase Diagram&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;This is used to capture the dynamic aspects of system.&lt;/li&gt;
+  &lt;li&gt;Use cases have
+    &lt;ul&gt;
+      &lt;li&gt;Actors&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Usecases represent high level activities&lt;/li&gt;
+  &lt;li&gt;Lets draw a use case diagram for Bank Atm, we have 3 types of users
+    &lt;ol&gt;
+      &lt;li&gt;Customer: Uses atm for
+        &lt;ul&gt;
+          &lt;li&gt;Checking balances&lt;/li&gt;
+          &lt;li&gt;Deposit funds&lt;/li&gt;
+          &lt;li&gt;Withdraws funds&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Cashier
+        &lt;ul&gt;
+          &lt;li&gt;Deposit amount into ATM&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Admin/Technician:
+        &lt;ul&gt;
+          &lt;li&gt;Maintenance&lt;/li&gt;
+          &lt;li&gt;Repair&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../assets/python61.png&quot; alt=&quot;preview&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="Python" /><summary type="html">Unified Modeling Language In UML we have two basic kinds of Modeling Structural Modeling Behavioral Modeling Structural Modeling: It represents the framework for the system &amp;amp; it captures static features of design. The following are popular diagrams: Class diagrams Object diagrams Deployment diagrams Package Diagrams Component diagrams Behavioral Modeling: It captures interactions in the system. The following diagrams are part of behavioral modeling Activity diagram Interaction diagram Use case diagram</summary></entry><entry><title type="html">17 Relationships</title><link href="/python/2020/08/07/Session-17.html" rel="alternate" type="text/html" title="17 Relationships" /><published>2020-08-07T23:05:08+05:30</published><updated>2020-08-07T23:05:08+05:30</updated><id>/python/2020/08/07/Session-17</id><content type="html" xml:base="/python/2020/08/07/Session-17.html">&lt;h3 id=&quot;relationships-contd&quot;&gt;Relationships (contd..)&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Describe Object Oriented stuff diagrammatically we use UML (Unified Modelling Language)&lt;/li&gt;
+  &lt;li&gt;I have oranges and i can place oranges in a basket
+    &lt;ul&gt;
+      &lt;li&gt;Orange is an object&lt;/li&gt;
+      &lt;li&gt;Basket is an object&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;There is a relationship b/w basket and oranges&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;To represent in basic class diagram&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../../../assets/python53.png&quot; alt=&quot;preview&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;When we specify a relationship b/w oranges and basket it is many oranges in one basket (many to one)&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../../../assets/python54.png&quot; alt=&quot;preview&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Now lets try cardinality between bus and a conductor&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../../../assets/python55.png&quot; alt=&quot;preview&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Line between two classes is association &amp;amp; numbers at the end of the line represent cardinality&lt;/li&gt;
+  &lt;li&gt;Sample class diagram looks like (note this is not completely correct version)
+&lt;img src=&quot;../../../../assets/python56.png&quot; alt=&quot;preview&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lets-try-to-design-objects-and-their-relationships-in-a-library&quot;&gt;Lets try to design objects and their relationships in a library.&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;This library has
+    &lt;ul&gt;
+      &lt;li&gt;Books&lt;/li&gt;
+      &lt;li&gt;DVDs&lt;/li&gt;
+      &lt;li&gt;Magazines&lt;/li&gt;
+      &lt;li&gt;CDs&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The user are librarian and readers. Librarian gives a unique number (lib_id)&lt;/li&gt;
+  &lt;li&gt;Librarian needs to locate the library items&lt;/li&gt;
+  &lt;li&gt;Readers will also be given catalog where they can search for existence of book or not&lt;/li&gt;
+  &lt;li&gt;Lets think of different classes
+    &lt;ul&gt;
+      &lt;li&gt;Book&lt;/li&gt;
+      &lt;li&gt;DVD&lt;/li&gt;
+      &lt;li&gt;Magazine&lt;/li&gt;
+      &lt;li&gt;CD&lt;/li&gt;
+      &lt;li&gt;Shelf&lt;/li&gt;
+      &lt;li&gt;Catalog&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Now lets speak normal english to come up with design
+    &lt;ul&gt;
+      &lt;li&gt;Book is a LibraryItem&lt;/li&gt;
+      &lt;li&gt;DVD is a LibraryItem&lt;/li&gt;
+      &lt;li&gt;Magazine is a LibraryItem&lt;/li&gt;
+      &lt;li&gt;CD is a LibraryItem&lt;/li&gt;
+      &lt;li&gt;Shelf has LibraryItem’s&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Now the diagrammatic representation will be something like
+&lt;img src=&quot;../../../../assets/python57.png&quot; alt=&quot;preview&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;exercise&quot;&gt;Exercise:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Create a diagram as shown above for the following problem statement&lt;/li&gt;
+  &lt;li&gt;A Bank has a savings account, fixed deposit account, recurring deposit account and loan accounts&lt;/li&gt;
+  &lt;li&gt;Bank Manager/Accountant would like to search with an account number using Account Console&lt;/li&gt;
+  &lt;li&gt;Customers should be able to see account balance, last transactions&lt;/li&gt;
+  &lt;li&gt;Also represent Transactions in the diagram.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="Python" /><summary type="html">Relationships (contd..) Describe Object Oriented stuff diagrammatically we use UML (Unified Modelling Language) I have oranges and i can place oranges in a basket Orange is an object Basket is an object There is a relationship b/w basket and oranges To represent in basic class diagram</summary></entry><entry><title type="html">16 Object Oriented Programming</title><link href="/python/2020/08/05/Session-16.html" rel="alternate" type="text/html" title="16 Object Oriented Programming" /><published>2020-08-05T23:05:08+05:30</published><updated>2020-08-05T23:05:08+05:30</updated><id>/python/2020/08/05/Session-16</id><content type="html" xml:base="/python/2020/08/05/Session-16.html">&lt;h3 id=&quot;object-oriented-programming&quot;&gt;Object Oriented Programming&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Lets assume we want to learn car driving
+    &lt;ul&gt;
+      &lt;li&gt;Know everything: Understand how car engine works, ac works
+&lt;img src=&quot;../../../../assets/engine.gif&quot; alt=&quot;preview&quot; /&gt;
+&lt;img src=&quot;../../../../assets/ac.jpeg&quot; alt=&quot;preview&quot; /&gt;&lt;/li&gt;
+      &lt;li&gt;Or will you try to operate car using the abstractions like steering, dashboard, clutch, accelarator etc.&lt;br /&gt;
+&lt;img src=&quot;../../../../assets/carint.jpg&quot; alt=&quot;preview&quot; /&gt;&lt;/li&gt;
+      &lt;li&gt;Steering hides the complexity of rotating tyres and gives you simple abstracted interface.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;When we humans learn to use objects we use the abstracted interfaces.&lt;/li&gt;
+  &lt;li&gt;When we try to design program’s/applications why don’t we follow this approach?&lt;/li&gt;
+  &lt;li&gt;This thought process has led to object-oriented programming.&lt;/li&gt;
+  &lt;li&gt;Generally anything or everything is an object.&lt;/li&gt;
+  &lt;li&gt;Every object will have &lt;strong&gt;contents&lt;/strong&gt; (What it has or what it is made of) and &lt;strong&gt;characteristics&lt;/strong&gt; (What it can do).&lt;/li&gt;
+  &lt;li&gt;Lets take television as an example:
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;contents: 
+ screen
+ hdmi ports
+ usb ports
+ motherboard
+characteristics:
+ playmovies
+ connect to satellite channels
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Lets take car as an example:
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;contents:
+  engine
+  wheels
+  dashboard
+characteristics:
+  start_the_engine
+  commute
+  stop_the_engine
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Lets take bank account as an example:
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;contents:
+  account holders name
+  account id
+  address
+  balance
+characteristics:
+  deposit_amount
+  withdraw_amount
+  transfer_amount
+  pay_bills
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;When we work on object-oriented programming we call contents as &lt;strong&gt;members&lt;/strong&gt; and characteristics as &lt;strong&gt;methods&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Members represent data and methods represent behaviors.&lt;/li&gt;
+  &lt;li&gt;Generally when we think of system we will have multiple objects.&lt;/li&gt;
+  &lt;li&gt;The following are major relations
+    &lt;ul&gt;
+      &lt;li&gt;Inheritance:
+        &lt;ul&gt;
+          &lt;li&gt;What does it mean &lt;strong&gt;Captian America is a soldier&lt;/strong&gt; or &lt;strong&gt;Stark is an engineer&lt;/strong&gt; or &lt;strong&gt;car is a vehicle&lt;/strong&gt;.&lt;/li&gt;
+          &lt;li&gt;In this relation we have two objects parent object (soldier/engineer/Vehicle) and child objects (Captian America, Stark, car) which have same contents or capabilities/behaviors as a parent.&lt;/li&gt;
+          &lt;li&gt;Inheritance in simple is a relation that can be expressed as &lt;strong&gt;is a&lt;/strong&gt; relationship.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Composition:
+        &lt;ul&gt;
+          &lt;li&gt;What does it mean by &lt;strong&gt;Bus has a driver&lt;/strong&gt; or &lt;strong&gt;wall has a clock&lt;/strong&gt; or &lt;strong&gt;laptop has a webcam&lt;/strong&gt;.&lt;/li&gt;
+          &lt;li&gt;In one object other object is composed/present.&lt;/li&gt;
+          &lt;li&gt;When any relationship b/w two objects can be expressed as &lt;strong&gt;has a&lt;/strong&gt;, it is Composition.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The design time entity of object is called as &lt;strong&gt;class&lt;/strong&gt;. We use &lt;strong&gt;class&lt;/strong&gt; to create multiple objects.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Classes&lt;/strong&gt; are design time entities and &lt;strong&gt;Objects&lt;/strong&gt; are runtime entities.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;terms&quot;&gt;Terms&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Object Oriented Analysis (OOA):
+    &lt;ul&gt;
+      &lt;li&gt;We will look into real world problem and analyze the problem and write requirements with objects into consideration.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Object Oriented Design (OOD):
+    &lt;ul&gt;
+      &lt;li&gt;From the requirements we create a design (UML) with objects and their relationships.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Object-Oriented Programming (OOPS):
+    &lt;ul&gt;
+      &lt;li&gt;Implementation of the design created by OOD in some object-oriented language like C#, Java, Python etc…&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="Python" /><summary type="html">Object Oriented Programming Lets assume we want to learn car driving Know everything: Understand how car engine works, ac works Or will you try to operate car using the abstractions like steering, dashboard, clutch, accelarator etc. Steering hides the complexity of rotating tyres and gives you simple abstracted interface. When we humans learn to use objects we use the abstracted interfaces. When we try to design program’s/applications why don’t we follow this approach? This thought process has led to object-oriented programming. Generally anything or everything is an object. Every object will have contents (What it has or what it is made of) and characteristics (What it can do). Lets take television as an example: contents: screen hdmi ports usb ports motherboard characteristics: playmovies connect to satellite channels Lets take car as an example: contents: engine wheels dashboard characteristics: start_the_engine commute stop_the_engine Lets take bank account as an example: contents: account holders name account id address balance characteristics: deposit_amount withdraw_amount transfer_amount pay_bills When we work on object-oriented programming we call contents as members and characteristics as methods. Members represent data and methods represent behaviors. Generally when we think of system we will have multiple objects. The following are major relations Inheritance: What does it mean Captian America is a soldier or Stark is an engineer or car is a vehicle. In this relation we have two objects parent object (soldier/engineer/Vehicle) and child objects (Captian America, Stark, car) which have same contents or capabilities/behaviors as a parent. Inheritance in simple is a relation that can be expressed as is a relationship. Composition: What does it mean by Bus has a driver or wall has a clock or laptop has a webcam. In one object other object is composed/present. When any relationship b/w two objects can be expressed as has a, it is Composition. The design time entity of object is called as class. We use class to create multiple objects. Classes are design time entities and Objects are runtime entities.</summary></entry><entry><title type="html">15 Understanding Programs better</title><link href="/python/2020/08/04/Session-15.html" rel="alternate" type="text/html" title="15 Understanding Programs better" /><published>2020-08-04T23:05:08+05:30</published><updated>2020-08-04T23:05:08+05:30</updated><id>/python/2020/08/04/Session-15</id><content type="html" xml:base="/python/2020/08/04/Session-15.html">&lt;h3 id=&quot;understanding-programs-better&quot;&gt;Understanding Programs better&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Today i will introduce one website to improve your understand of code &lt;a href=&quot;http://pythontutor.com/index.html&quot;&gt;Refer Here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;break-and-continue-statements-in-loops&quot;&gt;break and continue statements in loops&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;break&lt;/strong&gt; will exit the loop&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;continue&lt;/strong&gt; will skip the step in current loop and go to the next iteration&lt;/li&gt;
+  &lt;li&gt;To understand break and continue execute this program in pythontutor.com
+```python
+index = 2
+is_even = False
+while index &amp;lt;= 10000:
+  if index%2 == 0:
+      print(index)
+      index = index+9
+      continue
+  elif index%3 == 0: 
+      print(index)
+  elif index%11 == 0:
+      break
+  index = index+1&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;print(“i’m out of the loop”)&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+### Now lets solve our Number guessing program
+* Lets understand this program
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;we will tell python3 to remember a random number between some range (1,100)
+then we will ask the user to enter his guess
+if he has guessed the same number which python remembers he wins
+if he guesses lower than random we will hint the user to guess high
+else we will hint to guess low
+we will do you accept defeat?, if user say yes we will stop &amp;amp; show the number
+else user continues guessing&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* Lets speak with Jarvis
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Hi Jarvis
+Remember a random number between 1 and 100 as lucky_number
+continue till user accepts defeat or wins
+   take input from user and remember it as guess
+   if guess &amp;lt; lucky_number hint user to guess high or accept defeat
+   if guess &amp;gt; lucky_number hint user to guess low or accept defeat
+   if guess == lucky_number display congrats and stop execution.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* Hint for generating a lucky number
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;import random
+lucky_number = random.randint(1,100)&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* My Program looks as shown below
+```python
+import random
+lucky_number = random.randint(1,100)
+while True:
+    user_guess = int(input('Enter your guess : '))
+    if user_guess &amp;lt; lucky_number:
+        print(&quot;Guess higher&quot;)
+    elif user_guess &amp;gt; lucky_number:
+        print(&quot;Guess lower&quot;)
+    else:
+        print(&quot;congrats you were great at guessing&quot;)
+        break
+
+    accept_defeat = int(input(&quot;Enter 0 to accept defeat any other number to continue: &quot;))
+    if accept_defeat == 0:
+        print(lucky_number)
+        break
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;bank-interest-rates&quot;&gt;Bank interest rates&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;This program should ask certain questions and show the fixed deposit interest rates to customer
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Ask age of the customer
+if age &amp;gt; 60 
+
+  show interest rate will be 12%
+Ask number of years that the customer is having account with this bank
+  if numberofyears &amp;gt; 10
+      show interest as 8 %
+  3&amp;lt; numberofyears&amp;lt; 10
+     show interest as 6%
+show interest rate as 4.5%
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="Python" /><summary type="html">Understanding Programs better Today i will introduce one website to improve your understand of code Refer Here</summary></entry><entry><title type="html">14 Project Euler Problems 2,3</title><link href="/python/2020/08/03/Session-14.html" rel="alternate" type="text/html" title="14 Project Euler Problems 2,3" /><published>2020-08-03T23:05:08+05:30</published><updated>2020-08-03T23:05:08+05:30</updated><id>/python/2020/08/03/Session-14</id><content type="html" xml:base="/python/2020/08/03/Session-14.html">&lt;h3 id=&quot;project-euler-problem-2&quot;&gt;Project euler problem 2&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://projecteuler.net/problem=2&quot;&gt;Refer Here&lt;/a&gt; for problem.&lt;/li&gt;
+  &lt;li&gt;Lets speak with jarvis
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Hi Jarvis
+remember 2 as result
+remember 1 as value_1
+remember 2 as value_2
+remember sum as 0
+continue till value_1 + value_2 &amp;lt;= 4000000
+sum = value_1 + value_2
+check if sum is even if yes add to result
+value_1 = value_2
+value_2 = sum
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The Python program is
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;value_1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;value_2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;sum&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value_1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value_2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4000000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;sum&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value_1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value_2&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sum&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;value_1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value_2&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;value_2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sum&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;project-euler-problem-3&quot;&gt;Project euler problem 3&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://projecteuler.net/problem=3&quot;&gt;Refer Here&lt;/a&gt; for problem.&lt;/li&gt;
+  &lt;li&gt;Lets speak with jarvis
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Hi jarvis
+remember 13195  as number
+calculate number//2 and remember as factor
+continue till factor &amp;gt; 1
+  check if number is divisible by factor (number%factor == 0)
+  if yes
+     find if it is prime or not
+     remeber is_primefactor with value true
+     start from 2 till factor//2 and check if the number is divisble by any number. 
+     if yes is_primefactor will be false
+  if is_primefactor is true
+    print number &amp;amp; exit program
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Python program is
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;number&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;13195&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;factor&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;number&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;factor&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;number&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;factor&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;c1&quot;&gt;# This means it is a factor
+&lt;/span&gt;      &lt;span class=&quot;c1&quot;&gt;# now check if this factor is prime
+&lt;/span&gt;      &lt;span class=&quot;n&quot;&gt;is_prime_factor&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;factor&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;factor&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+              &lt;span class=&quot;n&quot;&gt;is_prime_factor&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
+              &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is_prime_factor&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;factor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+          &lt;span class=&quot;nb&quot;&gt;exit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;factor&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;factor&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="Python" /><summary type="html">Project euler problem 2 Refer Here for problem. Lets speak with jarvis Hi Jarvis remember 2 as result remember 1 as value_1 remember 2 as value_2 remember sum as 0 continue till value_1 + value_2 &amp;lt;= 4000000 sum = value_1 + value_2 check if sum is even if yes add to result value_1 = value_2 value_2 = sum The Python program is value_1 = 1 value_2 = 2 result = 2 sum = 0 while value_1 + value_2 &amp;lt;= 4000000: sum = value_1 + value_2 if sum%2 == 0: result = result + sum value_1 = value_2 value_2 = sum print(result)</summary></entry><entry><title type="html">13 Repetitive Statements</title><link href="/python/2020/07/31/Session-13.html" rel="alternate" type="text/html" title="13 Repetitive Statements" /><published>2020-07-31T23:05:08+05:30</published><updated>2020-07-31T23:05:08+05:30</updated><id>/python/2020/07/31/Session-13</id><content type="html" xml:base="/python/2020/07/31/Session-13.html">&lt;h3 id=&quot;repetitive-statements&quot;&gt;Repetitive Statements&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;When we are assigned home work from our teacher will she say something like write number from 1 to 100 or will she write all the numbers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../assets/python51.png&quot; alt=&quot;preview&quot; /&gt;
+&lt;img src=&quot;../../../../assets/python52.png&quot; alt=&quot;preview&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lets look at our code
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;print(1)
+print(2)
+print(3)
+print(4)
+print(5)
+print(6)
+print(7)
+print(8)
+print(9)
+print(10)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Now if we want to get the same thing done from our python3, we need to understand looping structures. Lets look at &lt;strong&gt;while&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;in the above code only number is changing, so if we make number dynamic rather than static will it help?
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;while &amp;lt;condition&amp;gt;:
+  &amp;lt;block&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Lets adopt this to our above program
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;write-a-program-to-print-all-the-even-numbers-from-1-to-100&quot;&gt;Write a program to print all the even numbers from 1 to 100&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Lets speak with Jarvis
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Hi jarvis
+start from 1 till 100 and remember this as index
+check if index%2 == 0 and if it is yes print index
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Now our python program will be something like
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Enter the starting number :&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Enter the ending number :&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;write-a-program-to-calculate-factors-of-a-number-given-by-user&quot;&gt;Write a program to calculate factors of a number given by user&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Lets speak with Jarvis
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Hi Jarvis,
+Accept input from user and remember as number
+start from 2 till number-1 and remember as index
+ check if number is divisible by index , if yes print index
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;exercise-write-a-python-programs&quot;&gt;Exercise: Write a python programs&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Write a program to find if the input is prime or not?&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://projecteuler.net/problem=1&quot;&gt;Project Euler Problem 1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://projecteuler.net/problem=2&quot;&gt;Project Euler Problem 2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://projecteuler.net/problem=3&quot;&gt;Project Euler Problem 3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="Python" /><summary type="html">Repetitive Statements When we are assigned home work from our teacher will she say something like write number from 1 to 100 or will she write all the numbers</summary></entry><entry><title type="html">12 Conditional Statements</title><link href="/python/2020/07/30/Session-12.html" rel="alternate" type="text/html" title="12 Conditional Statements" /><published>2020-07-30T23:05:08+05:30</published><updated>2020-07-30T23:05:08+05:30</updated><id>/python/2020/07/30/Session-12</id><content type="html" xml:base="/python/2020/07/30/Session-12.html">&lt;h3 id=&quot;conditional-statements&quot;&gt;Conditional Statements&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;If you consider the code
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;print(1)
+print(2)
+print(3)
+print(4)
+print(5)
+print(6)
+print(7)
+print(8)
+print(9)
+print(10)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Python will execute all the lines one after other, now lets try to write a program which will tell if the number is even or odd.&lt;/li&gt;
+  &lt;li&gt;Lets go back to Jarvis:
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Hi Jarvis
+Remember 10 as number
+check if 10%2 == 0
+if yes show 10 is even
+else show 10 is odd
+&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Now part of the program still under-construction is as shown below&lt;/li&gt;
+  &lt;li&gt;To make it right we need to use if statement&lt;/li&gt;
+  &lt;li&gt;Now adding if to the program earlier&lt;/li&gt;
+  &lt;li&gt;This program looks ok but lets take dynamic input from user, now the program looks like&lt;/li&gt;
+  &lt;li&gt;Sample debugging screenshot&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../assets/python50.png&quot; alt=&quot;preview&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Will we ever ask questions like
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. are you an engineer?
+2. are you not an engineer?
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Then we have done the same thing in the above program?. To solve this i have if/else statement
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;if &amp;lt;condition&amp;gt;:
+  &amp;lt;true-block&amp;gt;
+else:
+  &amp;lt;false block&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Now our program look like
+```python
+number = int(input(‘Enter the number of your choice:  ‘)) # assignment statement&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;if number%2 == 0:
+    print(“you have chosen an even number”)
+else:
+    print(“you have chosen an odd number”)&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* Debug this program
+* Now lets write a program which calculates average of 3 subjects and gives them grades
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;average = sub1+sub2+sub3/3&lt;/p&gt;
+
+&lt;p&gt;average &amp;gt;= 70 =&amp;gt; distinction
+average &amp;gt;=60 =&amp;gt; first class
+average &amp;gt;= 50 =&amp;gt; second class
+third class&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* Now lets speak with jarvis to make our conversation with python3 simple
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Hi jarvis
+Take input from user and remember as maths
+Take input from user and remember as physics
+Take input from user and remember as chemistry
+now calculate (maths+physics+chemistry)/3 and remember as average
+when average &amp;gt;=70 print distinction
+when average &amp;gt;=60 print first class
+when average &amp;gt;= 50 print second class
+for all other cases print third class&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* So our program will be
+```python
+maths = int(input(&quot;Enter the marks obtained in maths:  &quot;))
+physics = int(input(&quot;Enter the marks obtained in physics:  &quot;))
+chemistry = int(input(&quot;Enter the marks obtained in chemistry:  &quot;))
+average = (maths+physics+chemistry)/3
+if average &amp;gt;= 70:
+    print(&quot;Distinction&quot;)
+elif average &amp;gt;= 60:
+    print(&quot;First class&quot;)
+elif average &amp;gt;= 50:
+    print(&quot;Second class&quot;)
+else:
+    print(&quot;Third class&quot;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Other way of solving this program could be
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;maths&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Enter the marks obtained in maths:  &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;physics&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Enter the marks obtained in physics:  &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;chemistry&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Enter the marks obtained in chemistry:  &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;average&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;maths&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;physics&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;chemistry&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;average&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;70&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Distinction&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;average&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;60&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;first class&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;average&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;second class&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;third class&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;One more of way
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;maths&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Enter the marks obtained in maths:  &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;physics&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Enter the marks obtained in physics:  &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;chemistry&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Enter the marks obtained in chemistry:  &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;average&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;maths&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;physics&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;chemistry&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;average&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;70&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Distinction&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;60&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;average&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;70&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;First class&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;average&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;60&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;second class&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;average&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;third class&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="Python" /><summary type="html">Conditional Statements If you consider the code print(1) print(2) print(3) print(4) print(5) print(6) print(7) print(8) print(9) print(10) Python will execute all the lines one after other, now lets try to write a program which will tell if the number is even or odd. Lets go back to Jarvis: Hi Jarvis Remember 10 as number check if 10%2 == 0 if yes show 10 is even else show 10 is odd Now part of the program still under-construction is as shown below To make it right we need to use if statement Now adding if to the program earlier This program looks ok but lets take dynamic input from user, now the program looks like Sample debugging screenshot</summary></entry></feed>

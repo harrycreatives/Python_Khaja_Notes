@@ -1,0 +1,30 @@
+I"Ù<h3 id="conditional-statements">Conditional Statements</h3>
+<ul>
+  <li>If you consider the code
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>print(1)
+print(2)
+print(3)
+print(4)
+print(5)
+print(6)
+print(7)
+print(8)
+print(9)
+print(10)
+</code></pre></div>    </div>
+  </li>
+  <li>Python will execute all the lines one after other, now lets try to write a program which will tell if the number is even or odd.</li>
+  <li>Lets go back to Jarvis:
+<code class="language-plaintext highlighter-rouge">Hi Jarvis
+Remember 10 as number
+check if 10%2 == 0
+if yes show 10 is even
+else show 10 is odd
+</code></li>
+  <li>Now part of the program still under-construction is as shown below</li>
+  <li>To make it right we need to use if statement</li>
+  <li>Now adding if to the program earlier</li>
+  <li>This program looks ok but lets take dynamic input from user, now the program looks like</li>
+  <li>Sample debugging screenshot</li>
+</ul>
+:ET

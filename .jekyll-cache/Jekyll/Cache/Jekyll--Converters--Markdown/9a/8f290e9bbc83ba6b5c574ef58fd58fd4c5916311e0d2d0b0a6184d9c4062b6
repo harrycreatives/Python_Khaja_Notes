@@ -1,0 +1,31 @@
+I"h<h3 id="initializing-the-object">Initializing the object</h3>
+<ul>
+  <li>Lets look at Point class which we have written so far
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Point</span><span class="p">:</span>
+  <span class="k">def</span> <span class="nf">reset</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+      <span class="bp">self</span><span class="p">.</span><span class="n">x</span> <span class="o">=</span> <span class="mi">0</span>
+      <span class="bp">self</span><span class="p">.</span><span class="n">y</span> <span class="o">=</span> <span class="mi">0</span>
+</code></pre></div>    </div>
+  </li>
+  <li>If we don’t explicitly set x and y positions on Our point object, we have a broken point with not real positions, So better idea would be enforcing user to pass the values of x and y while instantiating object from class</li>
+  <li>So in many object oriented languages we have a concept of constructor which is a special method that creates and initializes the object</li>
+  <li>In Python we have a constructor &amp; a initializer. We rarely use constructor and often use initializer</li>
+  <li>In python whenever you come across methods with <code class="language-plaintext highlighter-rouge">__method_name__</code>, these methods are known as magic methods or dunder (double underscore)</li>
+  <li>Python initialization method is also a magic method and it has a name <code class="language-plaintext highlighter-rouge">__init__</code></li>
+  <li>Lets use initialization in the Point code</li>
+  <li>
+    <p>```python
+class Point:
+def <strong>init</strong>(self, x, y):
+    self.x = x
+    self.y = y</p>
+
+    <p>def reset(self):
+    self.x = 0
+    self.y = 0</p>
+
+    <p>def print(self):
+    print(self.x, self.y)</p>
+  </li>
+</ul>
+:ET

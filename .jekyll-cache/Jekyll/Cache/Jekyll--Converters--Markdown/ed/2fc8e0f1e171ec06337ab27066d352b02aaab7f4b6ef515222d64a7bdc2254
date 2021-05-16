@@ -1,0 +1,129 @@
+I"Ö<h3 id="number-guessing-logic">Number Guessing Logic</h3>
+<ul>
+  <li>Number guessing question:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Lets use our python3 to build a number guessing game
+We will tell python3 to remember some number randomly
+Now we will ask user to enter inputs
+if the value entered by user is less than number remeber give hints to the user
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Lets use our old friend Jarvis &amp; Speak english
+<img src="../../../../assets/python05.png" alt="preview" /></p>
+  </li>
+  <li>Lets write plain english to communicate with jarvis
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Hi Jarvis,
+Generate a random number between 1 and 100 &amp; remember it as target
+continue till user wins or accepts defeat
+Now ask user for entering his guess
+if the number matches display success message
+if the number doesnt match 
+ find if the user has guessed the number higher than target 
+     if yes ask him to guess a lower number
+     else ask him to guess higher
+     ask him to accept defeat and quit
+</code></pre></div>    </div>
+  </li>
+  <li>If we want to speak with python3 we need to understand statements</li>
+</ul>
+
+<h3 id="python-statements">Python Statements</h3>
+<ul>
+  <li>In simple terms <strong>statements</strong> are the things you write to tell python what your program has do.</li>
+  <li>Python Coneptual Hierarchy
+    <ol>
+      <li>Programs are composed of modules</li>
+      <li>Modules are composed of statements</li>
+      <li>Statements are composed of expressions</li>
+      <li>Expressions create &amp; process objects</li>
+    </ol>
+  </li>
+  <li>Minimal Python Statement Set</li>
+</ul>
+
+<p><img src="../../../../assets/python37.png" alt="preview" /></p>
+
+<ul>
+  <li>Till we discuss about modules in depth, each python file (filename.py) is a module</li>
+  <li>Lets create a python file which prints 10 numbers with following
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>print(1)
+print(2)
+print(3)
+print(4)
+print(5)
+print(6)
+print(7)
+print(8)
+print(9)
+print(10)
+</code></pre></div>    </div>
+  </li>
+  <li>In the above module each line with print represents a statement.</li>
+  <li>Now lets run the program</li>
+</ul>
+
+<p><img src="../../../../assets/python38.png" alt="preview" /></p>
+
+<ul>
+  <li>Any line which starts with # will not be executed by python
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>print(1)
+print(2)
+print(3)
+print(4)
+print(5)
+print(6)
+print(7)
+print(8) #print 8
+#print(9)
+print(10)
+</code></pre></div>    </div>
+    <p><img src="../../../../assets/python39.png" alt="preview" /></p>
+  </li>
+  <li>Now can we write a python program to print 1 million numbers</li>
+  <li>Setup this program in Visual Studio Code <a href="https://www.youtube.com/watch?v=mRILfUNbsIo">For installing Visual Studio Refer Here</a></li>
+  <li>Install python extension</li>
+</ul>
+
+<p><img src="../../../../assets/python40.png" alt="preview" /></p>
+
+<ul>
+  <li>Understanding Intellisense:</li>
+</ul>
+
+<p><img src="../../../../assets/python41.png" alt="preview" />
+<img src="../../../../assets/python42.png" alt="preview" /></p>
+
+<ul>
+  <li>Execute the Program from vscode</li>
+</ul>
+
+<p><img src="../../../../assets/python43.png" alt="preview" /></p>
+
+<ul>
+  <li>See the output of the program in the Terminal</li>
+</ul>
+
+<p><img src="../../../../assets/python44.png" alt="preview" /></p>
+
+<h3 id="getting-into-debugging">Getting into Debugging</h3>
+<ul>
+  <li>Python executes the statement one after other and shows the output.</li>
+  <li>Shall we understand program execution? for that we need to debug</li>
+  <li>We need to tell editor (IDE) from where do you want to take control of execution and in that line enable <strong>breakpoint</strong></li>
+  <li>
+    <p>Put the cursor the line where you want to take control from and Toggle Breakpoint
+<img src="../../../../assets/python45.png" alt="preview" /></p>
+  </li>
+  <li>Now start debugging</li>
+</ul>
+
+<p><img src="../../../../assets/python46.png" alt="preview" />
+<img src="../../../../assets/python47.png" alt="preview" /></p>
+
+<ul>
+  <li>Now the program execution stops on line 1 and from there step over (Execute this line and stop and next line)</li>
+</ul>
+
+<p><img src="../../../../assets/python48.png" alt="preview" />
+<img src="../../../../assets/python49.png" alt="preview" /></p>
+:ET

@@ -1,0 +1,56 @@
+I"[<h3 id="fun-with-python-interactive-shell">Fun with Python Interactive Shell</h3>
+<ul>
+  <li>
+    <p>After installing python, launch default terminal (Powershell/Terminal)
+<img src="../../../../assets/python11.png" alt="preview" /></p>
+  </li>
+  <li>
+    <p>Type python and hit Return (Enter Key), to see the python interactive shell. &amp; type <code class="language-plaintext highlighter-rouge">import this</code></p>
+  </li>
+</ul>
+
+<p><img src="../../../../assets/python12.png" alt="preview" /></p>
+
+<ul>
+  <li>To come out of python interactive shell type <code class="language-plaintext highlighter-rouge">exit()</code></li>
+  <li>Lets play with two built-in functions of python
+    <ul>
+      <li>type(): This function will tell data type</li>
+      <li>id(): Returns identity of object. same identity can be thought as same memory location</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="fun-activities">Fun activities</h3>
+<ul>
+  <li>Lets remember
+    <ul>
+      <li>a number</li>
+    </ul>
+  </li>
+</ul>
+
+<p><img src="../../../../assets/python13.png" alt="preview" /></p>
+
+<ul>
+  <li>a text</li>
+</ul>
+
+<p><img src="../../../../assets/python14.png" alt="preview" /></p>
+
+<ul>
+  <li>
+    <p>When we are assigning variable values to other variables both will be pointing out to same memory location.
+<img src="../../../../assets/python15.png" alt="preview" /></p>
+  </li>
+  <li>
+    <p>Now lets change one variable value.</p>
+  </li>
+</ul>
+
+<p><img src="../../../../assets/python16.png" alt="preview" /></p>
+
+<ul>
+  <li>In python the basic data types will be immutable, but we need to find out about complex data types.</li>
+</ul>
+:ET

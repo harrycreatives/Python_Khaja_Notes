@@ -1,0 +1,21 @@
+I"Ñ<h3 id="pycharm">PyCharm</h3>
+<ul>
+  <li>This is most popular IDE for python language.</li>
+  <li>This has best of the class features such as:
+    <ul>
+      <li>Code completion and inspection</li>
+      <li>Advanced debugging</li>
+      <li>Supports for web programming &amp; Frameworks such as Django, Flask and many more.</li>
+    </ul>
+  </li>
+  <li>Pycharm has the following flavors
+    <ul>
+      <li>Community</li>
+      <li>Professional (Paid)</li>
+    </ul>
+  </li>
+  <li>Initially we will be using the Community Edition of PyCharm.
+<a href="https://www.jetbrains.com/pycharm/download/#section=windows">Refer Here</a> for download links</li>
+  <li>PyCharm can be installed on Windows, MAC &amp; Linux</li>
+</ul>
+:ET

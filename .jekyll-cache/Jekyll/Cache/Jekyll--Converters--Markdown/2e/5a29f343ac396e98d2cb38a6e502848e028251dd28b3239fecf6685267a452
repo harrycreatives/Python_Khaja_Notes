@@ -1,0 +1,121 @@
+I"�<h3 id="python-interpreter">Python Interpreter</h3>
+<ul>
+  <li>Python Interpreter executes the python programs.</li>
+  <li>When you install python on your system, interpreter is also part of installation.</li>
+  <li>Python interpreter will read your program &amp; execute.</li>
+  <li>Lets create a simple program called as hello.py
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">"hello python"</span><span class="p">)</span>
+</code></pre></div>    </div>
+  </li>
+  <li>Open terminal on your system (Powershell)</li>
+</ul>
+
+<p><img src="../../../../assets/python07.png" alt="preview" /></p>
+<ul>
+  <li>To understand how this program executed lets look at two view</li>
+</ul>
+
+<h3 id="programmers-view">Programmer’s view</h3>
+<ul>
+  <li>Our program consists of print statement, Now interpreter will find where the print is defined and execute it.</li>
+  <li>When we run our programs it appears as if python is interpreting.</li>
+</ul>
+
+<p><img src="../../../../assets/python08.png" alt="preview" /></p>
+
+<h3 id="pythons-view">Pythons view</h3>
+<ul>
+  <li>Program is read and then compiled to bytecode, this bytecode is executed by python interpretor.
+<img src="../../../../assets/python09.png" alt="preview" /></li>
+</ul>
+
+<h3 id="bytecode-compilation">Bytecode compilation</h3>
+<ul>
+  <li>bytecode of your programs end with .pyc extension.</li>
+  <li>When will it will
+    <ul>
+      <li>Source code changes</li>
+      <li>Change in the modules</li>
+    </ul>
+  </li>
+  <li>Python bytecode is executed by Python Virtual Machine (PVM)
+<img src="../../../../assets/python10.png" alt="preview" /></li>
+</ul>
+
+<h3 id="python-implementations">Python Implementations</h3>
+<ul>
+  <li>Python is a open source and Python has various implementations</li>
+  <li>Lets look at 4 popular implemenation which are production ready
+    <ul>
+      <li>CPython</li>
+      <li>Jython</li>
+      <li>IronPython</li>
+      <li>PyPy</li>
+    </ul>
+  </li>
+  <li>These implemenatios deal with how to generate byte code &amp; how to run PVM. As a developer your code for python will not change per implemenations</li>
+</ul>
+
+<h3 id="cpython">CPython</h3>
+<ul>
+  <li>Referred as Classic Python &amp; it most up-to-date &amp; widely used flavor of python.</li>
+  <li>CPython is a compiler, interpreter &amp; set of built-in and options extensions &amp; all of this is implemented in Language C</li>
+</ul>
+
+<h3 id="jython">Jython</h3>
+<ul>
+  <li>Jython is Python implementation for any Java Virtual Machine</li>
+  <li>Python code gets converted into Java Byte code &amp; then is executed using JDK</li>
+</ul>
+
+<h3 id="ironpython">IronPython</h3>
+<ul>
+  <li>IronPython is Python implementation for any .net framework</li>
+  <li>Python code gets converted into MSIL (Microsoft Intermediate Language) &amp; gets executed using .net framework</li>
+</ul>
+
+<h3 id="pypy">PyPy</h3>
+<ul>
+  <li>The subset of Python is coded in Python iteself.</li>
+</ul>
+
+<h3 id="other-implementations">Other Implementations</h3>
+<ul>
+  <li>PYJION: Opensource project from Microsoft whose primary goad is to add API to CPython</li>
+  <li>Anaconda &amp; miniconda: This is Python distribution from Continuum Analytics. Along with Python standard library Anaconda adds some interesting libraries. They have a packaging technolongy called conda.</li>
+  <li>NUTIKA: Converts your python code into C++</li>
+  <li>GRUMPY: Converts Python Code in to Go.</li>
+</ul>
+
+<h3 id="note">Note</h3>
+<ul>
+  <li>In this course we will be using Standard Python(CPython).</li>
+</ul>
+
+<h3 id="python-development--versions">Python Development &amp; Versions</h3>
+<p>Python’s intellectual property is vested in <a href="https://www.python.org/psf/">Python Software Foundation</a>.
+All the proposed changes in Python are detailed as <a href="https://www.python.org/dev/peps/">Python Enhancement Proposals (PEPS)</a>.
+There are some information PEP’s for developers who use python.</p>
+<ul>
+  <li>
+    <p><a href="https://www.python.org/dev/peps/pep-0020/">Zen of python</a></p>
+
+    <p><img src="../../../../assets/python11.jpg" alt="preview" /></p>
+  </li>
+  <li>
+    <p><a href="https://www.python.org/dev/peps/pep-0008/">Style Guide</a></p>
+  </li>
+</ul>
+
+<h3 id="installing-python">Installing Python</h3>
+<ul>
+  <li>Windows: Download installer <a href="https://www.python.org/downloads/">from here</a> &amp; install.</li>
+  <li>Mac: Install homebrew &amp; use homebrew to install python</li>
+  <li>Linux:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Download tar file
+untar the file 
+add the folder to the path
+</code></pre></div>    </div>
+  </li>
+</ul>
+:ET

@@ -1,0 +1,83 @@
+I"Ü	<h3 id="pycharm">PyCharm</h3>
+<ul>
+  <li>This is most popular IDE for python language.</li>
+  <li>This has best of the class features such as:
+    <ul>
+      <li>Code completion and inspection</li>
+      <li>Advanced debugging</li>
+      <li>Supports for web programming &amp; Frameworks such as Django, Flask and many more.</li>
+    </ul>
+  </li>
+  <li>Pycharm has the following flavors
+    <ul>
+      <li>Community</li>
+      <li>Professional (Paid)</li>
+    </ul>
+  </li>
+  <li>Initially we will be using the Community Edition of PyCharm.
+<a href="https://www.jetbrains.com/pycharm/download/#section=windows">Refer Here</a> for download links</li>
+  <li>
+    <p>PyCharm can be installed on Windows, MAC &amp; Linux</p>
+  </li>
+  <li>
+    <p>Download PyCharm Community Edition &amp; install as per installation instructions</p>
+  </li>
+  <li>Lets start PyCharm and setup one time settings</li>
+</ul>
+
+<p><img src="../../../../assets/python71.png" alt="preview" /></p>
+
+<p><img src="../../../../assets/python72.png" alt="preview" />
+<img src="../../../../assets/python73.png" alt="preview" />
+<img src="../../../../assets/python74.png" alt="preview" /></p>
+
+<ul>
+  <li>This is Starting Screen of PyCharm</li>
+</ul>
+
+<p><img src="../../../../assets/python75.png" alt="preview" /></p>
+
+<ul>
+  <li>Lets create a new project using PyCharm</li>
+</ul>
+
+<p><img src="../../../../assets/python76.png" alt="preview" />
+<img src="../../../../assets/python77.png" alt="preview" />
+<img src="../../../../assets/python78.png" alt="preview" />
+<img src="../../../../assets/python79.png" alt="preview" /></p>
+
+<ul>
+  <li>Create a New python file for implementing a class called as Number and create a simple is_even method</li>
+  <li>PyCharm starts hinting you</li>
+</ul>
+
+<p><img src="../../../../assets/python80.png" alt="preview" />
+<img src="../../../../assets/python81.png" alt="preview" />
+<img src="../../../../assets/python82.png" alt="preview" /></p>
+
+<ul>
+  <li>
+    <p>Now add docstring to the Number class
+<img src="../../../../assets/python83.png" alt="preview" /></p>
+  </li>
+  <li>
+    <p>KeyMaps</p>
+  </li>
+</ul>
+
+<p><img src="../../../../assets/python84.png" alt="preview" />
+<img src="../../../../assets/python85.png" alt="preview" /></p>
+
+<ul>
+  <li>Finding Shortcuts:</li>
+</ul>
+
+<p><img src="../../../../assets/python86.png" alt="preview" />
+<img src="../../../../assets/python87.png" alt="preview" /></p>
+
+<ul>
+  <li>PyCharm Navigation</li>
+</ul>
+
+<p><img src="../../../../assets/python86.png" alt="preview" /></p>
+:ET

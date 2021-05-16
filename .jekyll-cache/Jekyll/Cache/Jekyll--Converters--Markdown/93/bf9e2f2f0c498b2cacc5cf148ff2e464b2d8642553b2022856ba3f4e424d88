@@ -1,0 +1,77 @@
+I"�<h3 id="object-oriented-programming">Object Oriented Programming</h3>
+<ul>
+  <li>Lets assume we want to learn car driving
+    <ul>
+      <li>Know everything: Understand how car engine works, ac works
+<img src="../../../../assets/engine.gif" alt="preview" />
+<img src="../../../../assets/ac.jpeg" alt="preview" /></li>
+      <li>Or will you try to operate car using the abstractions like steering, dashboard, clutch, accelarator etc.<br />
+<img src="../../../../assets/carint.jpg" alt="preview" /></li>
+      <li>Steering hides the complexity of rotating tyres and gives you simple abstracted interface.</li>
+    </ul>
+  </li>
+  <li>When we humans learn to use objects we use the abstracted interfaces.</li>
+  <li>When we try to design program’s/applications why don’t we follow this approach?</li>
+  <li>This thought process has led to object-oriented programming.</li>
+  <li>Generally anything or everything is an object.</li>
+  <li>Every object will have <strong>contents</strong> (What it has or what it is made of) and <strong>characteristics</strong> (What it can do).</li>
+  <li>Lets take television as an example:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>contents: 
+ screen
+ hdmi ports
+ usb ports
+ motherboard
+characteristics:
+ playmovies
+ connect to satellite channels
+</code></pre></div>    </div>
+  </li>
+  <li>Lets take car as an example:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>contents:
+  engine
+  wheels
+  dashboard
+characteristics:
+  start_the_engine
+  commute
+  stop_the_engine
+</code></pre></div>    </div>
+  </li>
+  <li>Lets take bank account as an example:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>contents:
+  account holders name
+  account id
+  address
+  balance
+characteristics:
+  deposit_amount
+  withdraw_amount
+  transfer_amount
+  pay_bills
+</code></pre></div>    </div>
+  </li>
+  <li>When we work on object-oriented programming we call contents as <strong>members</strong> and characteristics as <strong>methods</strong>.</li>
+  <li>Members represent data and methods represent behaviors.</li>
+  <li>Generally when we think of system we will have multiple objects.</li>
+  <li>The following are major relations
+    <ul>
+      <li>Inheritance:
+        <ul>
+          <li>What does it mean <strong>Captian America is a soldier</strong> or <strong>Stark is an engineer</strong> or <strong>car is a vehicle</strong>.</li>
+          <li>In this relation we have two objects parent object (soldier/engineer/Vehicle) and child objects (Captian America, Stark, car) which have same contents or capabilities/behaviors as a parent.</li>
+          <li>Inheritance in simple is a relation that can be expressed as <strong>is a</strong> relationship.</li>
+        </ul>
+      </li>
+      <li>Composition:
+        <ul>
+          <li>What does it mean by <strong>Bus has a driver</strong> or <strong>wall has a clock</strong> or <strong>laptop has a webcam</strong>.</li>
+          <li>In one object other object is composed/present.</li>
+          <li>When any relationship b/w two objects can be expressed as <strong>has a</strong>, it is Composition.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>The design time entity of object is called as <strong>class</strong>. We use <strong>class</strong> to create multiple objects.</li>
+  <li><strong>Classes</strong> are design time entities and <strong>Objects</strong> are runtime entities.</li>
+</ul>
+:ET

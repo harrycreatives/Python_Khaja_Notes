@@ -1,0 +1,74 @@
+I"=<h3 id="python-3-intelligence-about-numbers">Python 3 intelligence about Numbers</h3>
+<ul>
+  <li>What our Python3 knows/understands about numbers</li>
+</ul>
+
+<p><img src="../../../../assets/python19.png" alt="preview" /></p>
+
+<ul>
+  <li>Python 3 has the following knowledge
+    <ul>
+      <li>Expression Operators: +,-,*,/,%,»,** etc..</li>
+      <li>Built in functions: pow, abs, round, int, hex, bin etc..</li>
+    </ul>
+  </li>
+  <li>We will explore this as we go along</li>
+  <li>For python 3 are variables names not places</li>
+  <li>When we use numbers we build expressions using variables and operators
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>x = 5
+y = 6
+z = x + y
+</code></pre></div>    </div>
+    <p><img src="../../../../assets/python20.png" alt="preview" /></p>
+  </li>
+  <li>What will python do if the operators are mixed</li>
+</ul>
+
+<p><img src="../../../../assets/python21.png" alt="preview" /></p>
+
+<ul>
+  <li>What if you want to do addition first and then multiplication, then use parantesis ()</li>
+</ul>
+
+<p><img src="../../../../assets/python22.png" alt="preview" /></p>
+
+<ul>
+  <li>So lets try to speak with python to solve our simple intrest
+    <ul>
+      <li>Lets try in a shell</li>
+    </ul>
+  </li>
+</ul>
+
+<p><img src="../../../../assets/python23.png" alt="preview" /></p>
+
+<ul>
+  <li>Create a file called as simpleintrest.py and in this file add some instructions with expressions.
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">principal</span> <span class="o">=</span> <span class="mi">10000</span>
+<span class="n">rate_of_intrest</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="n">time_in_years</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="n">simple_intrest</span> <span class="o">=</span> <span class="n">principal</span> <span class="o">*</span> <span class="n">rate_of_intrest</span> <span class="o">*</span> <span class="n">time_in_years</span> <span class="o">/</span><span class="mi">100</span>
+<span class="k">print</span><span class="p">(</span><span class="n">simple_intrest</span><span class="p">)</span>
+</code></pre></div>    </div>
+  </li>
+  <li>To execute this program. Open powershell/cmd/terminal.
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python &lt;path to your program&gt;
+</code></pre></div>    </div>
+    <p><img src="../../../../assets/python24.png" alt="preview" />
+<img src="../../../../assets/python25.png" alt="preview" /></p>
+  </li>
+</ul>
+
+<h3 id="mixed-types-are-converted-up">Mixed Types are converted up</h3>
+<ul>
+  <li>When python sees mixed types the result will be always the complex type.</li>
+</ul>
+
+<p><img src="../../../../assets/python26.png" alt="preview" /></p>
+
+<ul>
+  <li>But what will you do if you want the result to be simple type, then you need to tell python do conversions using built-in functions like int(), float() etc</li>
+</ul>
+
+<p><img src="../../../../assets/python27.png" alt="preview" /></p>
+:ET

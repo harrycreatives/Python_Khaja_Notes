@@ -1,0 +1,75 @@
+I"¬<h3 id="repetitive-statements">Repetitive Statements</h3>
+<ul>
+  <li>When we are assigned home work from our teacher will she say something like write number from 1 to 100 or will she write all the numbers</li>
+</ul>
+
+<p><img src="../../../../assets/python51.png" alt="preview" />
+<img src="../../../../assets/python52.png" alt="preview" /></p>
+
+<ul>
+  <li>Lets look at our code
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>print(1)
+print(2)
+print(3)
+print(4)
+print(5)
+print(6)
+print(7)
+print(8)
+print(9)
+print(10)
+</code></pre></div>    </div>
+  </li>
+  <li>Now if we want to get the same thing done from our python3, we need to understand looping structures. Lets look at <strong>while</strong></li>
+  <li>in the above code only number is changing, so if we make number dynamic rather than static will it help?
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>while &lt;condition&gt;:
+  &lt;block&gt;
+</code></pre></div>    </div>
+  </li>
+  <li>Lets adopt this to our above program
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">index</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="k">while</span> <span class="n">index</span> <span class="o">&lt;=</span> <span class="mi">10</span><span class="p">:</span>
+  <span class="k">print</span><span class="p">(</span><span class="n">index</span><span class="p">)</span>
+  <span class="n">index</span> <span class="o">=</span> <span class="n">index</span> <span class="o">+</span> <span class="mi">1</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h3 id="write-a-program-to-print-all-the-even-numbers-from-1-to-100">Write a program to print all the even numbers from 1 to 100</h3>
+<ul>
+  <li>Lets speak with Jarvis
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Hi jarvis
+start from 1 till 100 and remember this as index
+check if index%2 == 0 and if it is yes print index
+</code></pre></div>    </div>
+  </li>
+  <li>Now our python program will be something like
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">index</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">"Enter the starting number :"</span><span class="p">))</span>
+<span class="n">end</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">"Enter the ending number :"</span><span class="p">))</span>
+<span class="k">while</span> <span class="n">index</span> <span class="o">&lt;=</span> <span class="n">end</span><span class="p">:</span>
+  <span class="k">if</span> <span class="n">index</span><span class="o">%</span><span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+      <span class="k">print</span><span class="p">(</span><span class="n">index</span><span class="p">)</span>
+  <span class="n">index</span> <span class="o">=</span> <span class="n">index</span> <span class="o">+</span> <span class="mi">1</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h3 id="write-a-program-to-calculate-factors-of-a-number-given-by-user">Write a program to calculate factors of a number given by user</h3>
+<ul>
+  <li>Lets speak with Jarvis
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Hi Jarvis,
+Accept input from user and remember as number
+start from 2 till number-1 and remember as index
+ check if number is divisible by index , if yes print index
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h3 id="exercise-write-a-python-programs">Exercise: Write a python programs</h3>
+<ul>
+  <li>Write a program to find if the input is prime or not?</li>
+  <li><a href="https://projecteuler.net/problem=1">Project Euler Problem 1</a></li>
+  <li><a href="https://projecteuler.net/problem=2">Project Euler Problem 2</a></li>
+  <li><a href="https://projecteuler.net/problem=3">Project Euler Problem 3</a></li>
+</ul>
+:ET

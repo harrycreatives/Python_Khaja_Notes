@@ -1,0 +1,76 @@
+I"›
+<h3 id="relationships-contd">Relationships (contd..)</h3>
+<ul>
+  <li>Describe Object Oriented stuff diagrammatically we use UML (Unified Modelling Language)</li>
+  <li>I have oranges and i can place oranges in a basket
+    <ul>
+      <li>Orange is an object</li>
+      <li>Basket is an object</li>
+    </ul>
+  </li>
+  <li>There is a relationship b/w basket and oranges</li>
+  <li>
+    <p>To represent in basic class diagram</p>
+
+    <p><img src="../../../../assets/python53.png" alt="preview" /></p>
+  </li>
+  <li>
+    <p>When we specify a relationship b/w oranges and basket it is many oranges in one basket (many to one)</p>
+
+    <p><img src="../../../../assets/python54.png" alt="preview" /></p>
+  </li>
+  <li>
+    <p>Now lets try cardinality between bus and a conductor</p>
+
+    <p><img src="../../../../assets/python55.png" alt="preview" /></p>
+  </li>
+  <li>Line between two classes is association &amp; numbers at the end of the line represent cardinality</li>
+  <li>Sample class diagram looks like (note this is not completely correct version)
+<img src="../../../../assets/python56.png" alt="preview" /></li>
+</ul>
+
+<h3 id="lets-try-to-design-objects-and-their-relationships-in-a-library">Lets try to design objects and their relationships in a library.</h3>
+<ul>
+  <li>This library has
+    <ul>
+      <li>Books</li>
+      <li>DVDs</li>
+      <li>Magazines</li>
+      <li>CDs</li>
+    </ul>
+  </li>
+  <li>The user are librarian and readers. Librarian gives a unique number (lib_id)</li>
+  <li>Librarian needs to locate the library items</li>
+  <li>Readers will also be given catalog where they can search for existence of book or not</li>
+  <li>Lets think of different classes
+    <ul>
+      <li>Book</li>
+      <li>DVD</li>
+      <li>Magazine</li>
+      <li>CD</li>
+      <li>Shelf</li>
+      <li>Catalog</li>
+    </ul>
+  </li>
+  <li>Now lets speak normal english to come up with design
+    <ul>
+      <li>Book is a LibraryItem</li>
+      <li>DVD is a LibraryItem</li>
+      <li>Magazine is a LibraryItem</li>
+      <li>CD is a LibraryItem</li>
+      <li>Shelf has LibraryItemâ€™s</li>
+    </ul>
+  </li>
+  <li>Now the diagrammatic representation will be something like
+<img src="../../../../assets/python57.png" alt="preview" /></li>
+</ul>
+
+<h3 id="exercise">Exercise:</h3>
+<ul>
+  <li>Create a diagram as shown above for the following problem statement</li>
+  <li>A Bank has a savings account, fixed deposit account, recurring deposit account and loan accounts</li>
+  <li>Bank Manager/Accountant would like to search with an account number using Account Console</li>
+  <li>Customers should be able to see account balance, last transactions</li>
+  <li>Also represent Transactions in the diagram.</li>
+</ul>
+:ET
