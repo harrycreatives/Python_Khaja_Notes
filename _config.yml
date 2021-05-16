@@ -22,8 +22,8 @@ title: Python Classroom Notes - Free Sessions
 email: harrycreatives@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   Khaja Sir Classroom notes of free python Sessions
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "Python_Khaja_Notes" # the subpath of your site, e.g. /blog
+url: "Python_Khaja_Notes" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username: jekyll
 
